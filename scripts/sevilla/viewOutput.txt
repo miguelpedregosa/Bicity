@@ -1,0 +1,3916 @@
+Leyendo la información de las estaciones de bicicletas de sevillaSimpleXMLElement Object
+(
+    [markers] => SimpleXMLElement Object
+        (
+            [marker] => Array
+                (
+                    [0] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 103_AVENIDA EDUARDO DATO
+                                    [number] => 103
+                                    [address] => AVENIDA EDUARDO DATO - Aprox. C/ San Bernardo
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Aprox. C/ San Bernardo  
+                                    [lat] => 37.384432463478554
+                                    [lng] => -5.982738173371375
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [1] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 001_GLORIETA OLIMPICA
+                                    [number] => 1
+                                    [address] => GLORIETA OLIMPICA - Aprox. Concejal Alberto Jiménez-Becerril
+                                    [fullAddress] => GLORIETA OLIMPICA - Aprox. Concejal Alberto Jiménez-Becerril  
+                                    [lat] => 37.4129235511391
+                                    [lng] => -5.988905938243152
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [2] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 004_CALLE LEONARDO DA VINCI
+                                    [number] => 4
+                                    [address] => CALLE LEONARDO DA VINCI - Aprox C/ Thomas Alba Edison
+                                    [fullAddress] => CALLE LEONARDO DA VINCI - Aprox C/ Thomas Alba Edison  
+                                    [lat] => 37.41011155757378
+                                    [lng] => -6.005722268777397
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [3] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 006_CAMINO DE LOS DESCUBRIMIENTOS
+                                    [number] => 6
+                                    [address] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. Calle Isaac Newton
+                                    [fullAddress] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. Calle Isaac Newton  
+                                    [lat] => 37.40661378981103
+                                    [lng] => -6.002977947581603
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [4] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 007_CALLE AMÉRICO VESPUCIO
+                                    [number] => 7
+                                    [address] => CALLE AMÉRICO VESPUCIO - Aprox. Calle de Jacques Cousteau
+                                    [fullAddress] => CALLE AMÉRICO VESPUCIO - Aprox. Calle de Jacques Cousteau  
+                                    [lat] => 37.4074694906696
+                                    [lng] => -6.007603350403363
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [5] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 008_CALLE LEONARDO DA VINCI
+                                    [number] => 8
+                                    [address] => CALLE LEONARDO DA VINCI - Aprox. C/ Gregor Mendel
+                                    [fullAddress] => CALLE LEONARDO DA VINCI - Aprox. C/ Gregor Mendel  
+                                    [lat] => 37.40096938285411
+                                    [lng] => -6.009381735376187
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [6] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 010_CALLE JOSE DIAZ
+                                    [number] => 10
+                                    [address] => CALLE JOSE DIAZ - Aprox. Avda Concejal Alberto Jiménez-Becerril
+                                    [fullAddress] => CALLE JOSE DIAZ - Aprox. Avda Concejal Alberto Jiménez-Becerril  
+                                    [lat] => 37.40938502560925
+                                    [lng] => -5.990766008714238
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [7] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 011_CALLE AVICENA
+                                    [number] => 11
+                                    [address] => CALLE AVICENA - Aprox. calle Avenzoar
+                                    [fullAddress] => CALLE AVICENA - Aprox. calle Avenzoar  
+                                    [lat] => 37.407142883891396
+                                    [lng] => -5.992590299734184
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [8] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 012_PLAZA DUQUESA DE ALBA
+                                    [number] => 12
+                                    [address] => PLAZA DUQUESA DE ALBA - Puente de la Barqueta
+                                    [fullAddress] => PLAZA DUQUESA DE ALBA - Puente de la Barqueta  
+                                    [lat] => 37.403869536605576
+                                    [lng] => -5.994904227249628
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [9] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 014_AVENIDA SANCHEZ PIZJUAN
+                                    [number] => 14
+                                    [address] => AVENIDA SANCHEZ PIZJUAN - Facultad de Medicina
+                                    [fullAddress] => AVENIDA SANCHEZ PIZJUAN - Facultad de Medicina  
+                                    [lat] => 37.4064737057759
+                                    [lng] => -5.989118739088445
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [10] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 015_CALLE DR MARAÑON
+                                    [number] => 15
+                                    [address] => CALLE DR MARAÑON - Aprox. C/ San Juan de Ribera
+                                    [fullAddress] => CALLE DR MARAÑON - Aprox. C/ San Juan de Ribera  
+                                    [lat] => 37.40604157176221
+                                    [lng] => -5.985733700014785
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [11] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 016_CALLE DE MANUEL VILLALOBOS
+                                    [number] => 16
+                                    [address] => CALLE DE MANUEL VILLALOBOS - Aprox. C/ Sor Francisca Dorotea
+                                    [fullAddress] => CALLE DE MANUEL VILLALOBOS - Aprox. C/ Sor Francisca Dorotea  
+                                    [lat] => 37.40705079945115
+                                    [lng] => -5.982430505819379
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [12] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 017_CALLE DE MADRESELVA
+                                    [number] => 17
+                                    [address] => CALLE DE MADRESELVA - Aprox. Ronda de Pio XII
+                                    [fullAddress] => CALLE DE MADRESELVA - Aprox. Ronda de Pio XII  
+                                    [lat] => 37.40715155556869
+                                    [lng] => -5.978840172776446
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [13] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 019_PARLAMENTO
+                                    [number] => 19
+                                    [address] => PARLAMENTO - Aprox. C/ Don Fadrique
+                                    [fullAddress] => PARLAMENTO - Aprox. C/ Don Fadrique  
+                                    [lat] => 37.403327536585486
+                                    [lng] => -5.989037206345736
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [14] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 020_CALLE SAN JUAN DE RIBERA
+                                    [number] => 20
+                                    [address] => CALLE SAN JUAN DE RIBERA - Aprox. C/ Fray Isidoro de Sevilla
+                                    [fullAddress] => CALLE SAN JUAN DE RIBERA - Aprox. C/ Fray Isidoro de Sevilla  
+                                    [lat] => 37.404869543652175
+                                    [lng] => -5.986537198461927
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [15] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 022_AVENIDA DE LLANES
+                                    [number] => 22
+                                    [address] => AVENIDA DE LLANES - Aprox. Avda de Miraflores
+                                    [fullAddress] => AVENIDA DE LLANES - Aprox. Avda de Miraflores  
+                                    [lat] => 37.40512954896668
+                                    [lng] => -5.974831157557763
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [16] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 023_PARLAMENTO
+                                    [number] => 23
+                                    [address] => PARLAMENTO - Aprox. C/ San Juan de Ribera
+                                    [fullAddress] => PARLAMENTO - Aprox. C/ San Juan de Ribera  
+                                    [lat] => 37.403337536978945
+                                    [lng] => -5.98787920228648
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [17] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 027_AVENIDA DE LLANES
+                                    [number] => 27
+                                    [address] => AVENIDA DE LLANES - Aprox C/ Escultor Francisco Buiza
+                                    [fullAddress] => AVENIDA DE LLANES - Aprox C/ Escultor Francisco Buiza  
+                                    [lat] => 37.40387754497417
+                                    [lng] => -5.972090147223454
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [18] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 029_CARRETERA DE CARMONA
+                                    [number] => 29
+                                    [address] => CARRETERA DE CARMONA - Aprox. Avda de Llanes
+                                    [fullAddress] => CARRETERA DE CARMONA - Aprox. Avda de Llanes  
+                                    [lat] => 37.40246354004471
+                                    [lng] => -5.970145139589757
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [19] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 035_ALAMEDA DE HERCULES
+                                    [number] => 35
+                                    [address] => ALAMEDA DE HERCULES - Aprox. Calle Peris Mencheta
+                                    [fullAddress] => ALAMEDA DE HERCULES - Aprox. Calle Peris Mencheta  
+                                    [lat] => 37.40068252435127
+                                    [lng] => -5.993630220939186
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [20] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 036_CALLE SAN VICENTE
+                                    [number] => 36
+                                    [address] => CALLE SAN VICENTE - Aprox. C/ Guadalquivir
+                                    [fullAddress] => CALLE SAN VICENTE - Aprox. C/ Guadalquivir  
+                                    [lat] => 37.40050052188098
+                                    [lng] => -5.998403237581298
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [21] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 040_AVENIDA REINA MERCEDES
+                                    [number] => 40
+                                    [address] => AVENIDA REINA MERCEDES - Aprox. Glorieta Alcalde de Parias Merry
+                                    [fullAddress] => AVENIDA REINA MERCEDES - Aprox. Glorieta Alcalde de Parias Merry  
+                                    [lat] => 37.35635082669173
+                                    [lng] => -5.986459877403918
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [22] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 042_PLAZA CRONISTA
+                                    [number] => 42
+                                    [address] => PLAZA CRONISTA - Aprox. C/ Divina Pastora
+                                    [fullAddress] => PLAZA CRONISTA - Aprox. C/ Divina Pastora  
+                                    [lat] => 37.3987059174522
+                                    [lng] => -5.989460016816095
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [23] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 043_RONDA CAPUCHINOS
+                                    [number] => 43
+                                    [address] => RONDA CAPUCHINOS - Aprox. C/ Maestro Quiroga
+                                    [fullAddress] => RONDA CAPUCHINOS - Aprox. C/ Maestro Quiroga  
+                                    [lat] => 37.399156087435365
+                                    [lng] => -5.982736630025496
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [24] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 044_RONDA CAPUCHINOS
+                                    [number] => 44
+                                    [address] => RONDA CAPUCHINOS - Aprox. C/ Corinto
+                                    [fullAddress] => RONDA CAPUCHINOS - Aprox. C/ Corinto  
+                                    [lat] => 37.39833897229492
+                                    [lng] => -5.981640026763738
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [25] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 046_PLAZA DEL PELICANO
+                                    [number] => 46
+                                    [address] => PLAZA DEL PELICANO - Aprox. C/ Enladrilladas
+                                    [fullAddress] => PLAZA DEL PELICANO - Aprox. C/ Enladrilladas  
+                                    [lat] => 37.397593515590735
+                                    [lng] => -5.983873184934495
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [26] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 048_CALLE CHURRUCA
+                                    [number] => 48
+                                    [address] => CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado
+                                    [fullAddress] => CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado  
+                                    [lat] => 37.39715651121527
+                                    [lng] => -5.991066209916829
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [27] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 049_ALAMEDA DE HERCULES
+                                    [number] => 49
+                                    [address] => ALAMEDA DE HERCULES - Aprox. C/ Amor de Dios
+                                    [fullAddress] => ALAMEDA DE HERCULES - Aprox. C/ Amor de Dios  
+                                    [lat] => 37.39686550900737
+                                    [lng] => -5.99392721978722
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [28] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 051_AVENIDA TORNEO
+                                    [number] => 51
+                                    [address] => AVENIDA TORNEO - Aprox. C/ Luis Rey Romero
+                                    [fullAddress] => AVENIDA TORNEO - Aprox. C/ Luis Rey Romero  
+                                    [lat] => 37.395519500564795
+                                    [lng] => -6.002321248467498
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [29] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 052_CALLE DEL INCA GARCILASO
+                                    [number] => 52
+                                    [address] => CALLE DEL INCA GARCILASO - Aprox. C/ Jerónimo de Aguilar
+                                    [fullAddress] => CALLE DEL INCA GARCILASO - Aprox. C/ Jerónimo de Aguilar  
+                                    [lat] => 37.39422649248208
+                                    [lng] => -6.010309275759171
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [30] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 055_CALLE DE MARIA AUXILIADORA
+                                    [number] => 55
+                                    [address] => CALLE DE MARIA AUXILIADORA - Aprox. C/ Gonzalo de Bilbao
+                                    [fullAddress] => CALLE DE MARIA AUXILIADORA - Aprox. C/ Gonzalo de Bilbao  
+                                    [lat] => 37.393318498568895
+                                    [lng] => -5.983766182098622
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [31] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 057_PLAZA CRISTO DE BURGOS
+                                    [number] => 57
+                                    [address] => PLAZA CRISTO DE BURGOS - Pza de San Pedro
+                                    [fullAddress] => PLAZA CRISTO DE BURGOS - Pza de San Pedro  
+                                    [lat] => 37.39231861674279
+                                    [lng] => -5.989705187094715
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [32] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 058_CALLE REGINA
+                                    [number] => 58
+                                    [address] => CALLE REGINA - Aprox. Pza de la Encarnación
+                                    [fullAddress] => CALLE REGINA - Aprox. Pza de la Encarnación  
+                                    [lat] => 37.39436722277961
+                                    [lng] => -5.991544993040244
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [33] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 062_PLAZA DE ARMAS
+                                    [number] => 62
+                                    [address] => PLAZA DE ARMAS - Avda Torneo (estación de autobuses)
+                                    [fullAddress] => PLAZA DE ARMAS - Avda Torneo (estación de autobuses)  
+                                    [lat] => 37.39106148246273
+                                    [lng] => -6.003150248813141
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [34] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 064_CALLE CUESTA DE ROSARIO
+                                    [number] => 64
+                                    [address] => CALLE CUESTA DE ROSARIO - Pza de la Pescadería
+                                    [fullAddress] => CALLE CUESTA DE ROSARIO - Pza de la Pescadería  
+                                    [lat] => 37.38985648205481
+                                    [lng] => -5.991125205922743
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [35] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 069_CALLE JOSE LAGUILLO
+                                    [number] => 69
+                                    [address] => CALLE JOSE LAGUILLO - Aprox. Pablo Iglesias
+                                    [fullAddress] => CALLE JOSE LAGUILLO - Aprox. Pablo Iglesias  
+                                    [lat] => 37.39201049535389
+                                    [lng] => -5.978293162147303
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [36] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 070_ESTACIÓN RENFE SANTA JUSTA
+                                    [number] => 70
+                                    [address] => ESTACIÓN RENFE SANTA JUSTA
+                                    [fullAddress] => ESTACIÓN RENFE SANTA JUSTA  
+                                    [lat] => 37.39115849280489
+                                    [lng] => -5.975971153511849
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [37] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 073_PLAZA SAN AGUSTIN
+                                    [number] => 73
+                                    [address] => PLAZA SAN AGUSTIN - Aprox. C/ Concepción
+                                    [fullAddress] => PLAZA SAN AGUSTIN - Aprox. C/ Concepción  
+                                    [lat] => 37.38951386231434
+                                    [lng] => -5.984362789545622
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [38] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 077_PLAZA CHAPINA
+                                    [number] => 77
+                                    [address] => PLAZA CHAPINA - Aprox. Hotel Abba Triana
+                                    [fullAddress] => PLAZA CHAPINA - Aprox. Hotel Abba Triana  
+                                    [lat] => 37.389629475123165
+                                    [lng] => -6.007581263540937
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [39] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 078_CALLE ALFARERIA
+                                    [number] => 78
+                                    [address] => CALLE ALFARERIA - Aprox. Ronda de Triana
+                                    [fullAddress] => CALLE ALFARERIA - Aprox. Ronda de Triana  
+                                    [lat] => 37.38857113316299
+                                    [lng] => -6.010282378350756
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [40] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 079_PLAZA DE LAS MERCEDARIAS
+                                    [number] => 79
+                                    [address] => PLAZA DE LAS MERCEDARIAS - Aprox. C/ Ibarra
+                                    [fullAddress] => PLAZA DE LAS MERCEDARIAS - Aprox. C/ Ibarra  
+                                    [lat] => 37.38832647749413
+                                    [lng] => -5.98690419023187
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [41] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 081_CALLE LUIS MONTOTO
+                                    [number] => 81
+                                    [address] => CALLE LUIS MONTOTO - Aprox. C/ Benitos Mas y Prat
+                                    [fullAddress] => CALLE LUIS MONTOTO - Aprox. C/ Benitos Mas y Prat  
+                                    [lat] => 37.38715620267129
+                                    [lng] => -5.971016767894659
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [42] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 085_PASEO CATALINA RIBERA
+                                    [number] => 85
+                                    [address] => PASEO CATALINA RIBERA - Frente a la Diputación Provincial
+                                    [fullAddress] => PASEO CATALINA RIBERA - Frente a la Diputación Provincial  
+                                    [lat] => 37.385351465662204
+                                    [lng] => -5.986785188099708
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [43] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 092_RONDA DE TRIANA
+                                    [number] => 92
+                                    [address] => RONDA DE TRIANA - Aprox. C/ de Manuel Arellano
+                                    [fullAddress] => RONDA DE TRIANA - Aprox. C/ de Manuel Arellano  
+                                    [lat] => 37.385838469752265
+                                    [lng] => -6.011220377621846
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [44] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 093_RONDA DE TRIANA
+                                    [number] => 93
+                                    [address] => RONDA DE TRIANA - Aprox. C/ San Vicente de Paul
+                                    [fullAddress] => RONDA DE TRIANA - Aprox. C/ San Vicente de Paul  
+                                    [lat] => 37.38312344793415
+                                    [lng] => -6.010876271362328
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [45] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 098_AVENIDA DE ROMA
+                                    [number] => 98
+                                    [address] => AVENIDA DE ROMA - Puerta de Jerez
+                                    [fullAddress] => AVENIDA DE ROMA - Puerta de Jerez  
+                                    [lat] => 37.382043350305
+                                    [lng] => -5.993030169261488
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [46] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 100_PASEO CATALINA RIBERA
+                                    [number] => 100
+                                    [address] => PASEO CATALINA RIBERA - Aprox. C/ San Fernando
+                                    [fullAddress] => PASEO CATALINA RIBERA - Aprox. C/ San Fernando  
+                                    [lat] => 37.381516148333745
+                                    [lng] => -5.98899864813969
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [47] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 101_PRADO DE SAN SEBASTIAN
+                                    [number] => 101
+                                    [address] => PRADO DE SAN SEBASTIAN - Estación de autobuses
+                                    [fullAddress] => PRADO DE SAN SEBASTIAN - Estación de autobuses  
+                                    [lat] => 37.38111568185353
+                                    [lng] => -5.986949751279455
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [48] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 104_AVENIDA EDUARDO DATO
+                                    [number] => 104
+                                    [address] => AVENIDA EDUARDO DATO - Aprox. C/ Fuenteovejuna
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Aprox. C/ Fuenteovejuna  
+                                    [lat] => 37.38413592692444
+                                    [lng] => -5.979676676296534
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [49] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 107_CALLE LUIS MORALES
+                                    [number] => 107
+                                    [address] => CALLE LUIS MORALES - Aprox. Nervión Plaza
+                                    [fullAddress] => CALLE LUIS MORALES - Aprox. Nervión Plaza  
+                                    [lat] => 37.38425946651307
+                                    [lng] => -5.972591137677613
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [50] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 108_AVENIDA EDUARDO DATO
+                                    [number] => 108
+                                    [address] => AVENIDA EDUARDO DATO - Aprox. Avda de San Francisco Javier
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Aprox. Avda de San Francisco Javier  
+                                    [lat] => 37.38285250345726
+                                    [lng] => -5.973249491935667
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [51] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 109_AVENIDA SAN FRANCISCO JAVIER
+                                    [number] => 109
+                                    [address] => AVENIDA SAN FRANCISCO JAVIER - Aprox. C/ Camilo José Cela
+                                    [fullAddress] => AVENIDA SAN FRANCISCO JAVIER - Aprox. C/ Camilo José Cela  
+                                    [lat] => 37.37988413609134
+                                    [lng] => -5.974382770011586
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [52] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 113_PLAZA SAN MARTÍN DE PORRES
+                                    [number] => 113
+                                    [address] => PLAZA SAN MARTÍN DE PORRES - Aprox. Avda Alvar Núñez
+                                    [fullAddress] => PLAZA SAN MARTÍN DE PORRES - Aprox. Avda Alvar Núñez  
+                                    [lat] => 37.38077843919005
+                                    [lng] => -6.009179264054355
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [53] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 118_PLAZA DE CUBA
+                                    [number] => 118
+                                    [address] => PLAZA DE CUBA - Aprox. Puente de San Telmo
+                                    [fullAddress] => PLAZA DE CUBA - Aprox. Puente de San Telmo  
+                                    [lat] => 37.379791416292186
+                                    [lng] => -5.997107796424417
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [54] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 125_AVENIDA SAN FRANCISCO JAVIER
+                                    [number] => 125
+                                    [address] => AVENIDA SAN FRANCISCO JAVIER - Aprox. Avda De Ramón y Cajal
+                                    [fullAddress] => AVENIDA SAN FRANCISCO JAVIER - Aprox. Avda De Ramón y Cajal  
+                                    [lat] => 37.377406438312754
+                                    [lng] => -5.974900141818838
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [55] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 129_CALLE VIRGEN DE LUJAN
+                                    [number] => 129
+                                    [address] => CALLE VIRGEN DE LUJAN - Aprox. Virgen de la Victoria
+                                    [fullAddress] => CALLE VIRGEN DE LUJAN - Aprox. Virgen de la Victoria  
+                                    [lat] => 37.37466841725403
+                                    [lng] => -6.002455236928109
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [56] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 130_GLORIETA REPUBLICA DOMINICANA
+                                    [number] => 130
+                                    [address] => GLORIETA REPUBLICA DOMINICANA - Aprox. C/ López de Gomara
+                                    [fullAddress] => GLORIETA REPUBLICA DOMINICANA - Aprox. C/ López de Gomara  
+                                    [lat] => 37.37574541795484
+                                    [lng] => -6.005247727302032
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [57] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 132_CALLE PAEZ DE RIBERA
+                                    [number] => 132
+                                    [address] => CALLE PAEZ DE RIBERA - Aprox. Paseo de la Palmera
+                                    [fullAddress] => CALLE PAEZ DE RIBERA - Aprox. Paseo de la Palmera  
+                                    [lat] => 37.36361937962884
+                                    [lng] => -5.984785168525709
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [58] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 133_AVENIDA SANTA FE
+                                    [number] => 133
+                                    [address] => AVENIDA SANTA FE - Aprox. C/ Virgen de la Oliva
+                                    [fullAddress] => AVENIDA SANTA FE - Aprox. C/ Virgen de la Oliva  
+                                    [lat] => 37.37403941410158
+                                    [lng] => -6.004198242683363
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [59] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 135_CALLE VIRGEN DE LUJÁN
+                                    [number] => 135
+                                    [address] => CALLE VIRGEN DE LUJÁN - Aprox. Glorieta las Cigarreras
+                                    [fullAddress] => CALLE VIRGEN DE LUJÁN - Aprox. Glorieta las Cigarreras  
+                                    [lat] => 37.374651420365396
+                                    [lng] => -5.993801206544696
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [60] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 138_CALLE RAMÓN CARANDE
+                                    [number] => 138
+                                    [address] => CALLE RAMÓN CARANDE - Aprox. C/ San Salvador
+                                    [fullAddress] => CALLE RAMÓN CARANDE - Aprox. C/ San Salvador  
+                                    [lat] => 37.37437042470978
+                                    [lng] => -5.978934154215835
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [61] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 139_AVENIDA DIEGO MARTINEZ BARRIO
+                                    [number] => 139
+                                    [address] => AVENIDA DIEGO MARTINEZ BARRIO - Aprox. Avda Gal Garcia de la Herranz
+                                    [fullAddress] => AVENIDA DIEGO MARTINEZ BARRIO - Aprox. Avda Gal Garcia de la Herranz  
+                                    [lat] => 37.375075258863696
+                                    [lng] => -5.975863125578401
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [62] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 142_CALLE RAMON DE CARRANZA
+                                    [number] => 142
+                                    [address] => CALLE RAMON DE CARRANZA - Aprox. C/ Asunción
+                                    [fullAddress] => CALLE RAMON DE CARRANZA - Aprox. C/ Asunción  
+                                    [lat] => 37.371651407131054
+                                    [lng] => -5.997212216783402
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [63] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 143_CALLE RAMON DE CARRANZA
+                                    [number] => 143
+                                    [address] => CALLE RAMON DE CARRANZA - Aprox. C/ Virgen de la Oliva
+                                    [fullAddress] => CALLE RAMON DE CARRANZA - Aprox. C/ Virgen de la Oliva  
+                                    [lat] => 37.37172440518047
+                                    [lng] => -6.00331223823691
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [64] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 145_AVENIDA REINA MERCEDES
+                                    [number] => 145
+                                    [address] => AVENIDA REINA MERCEDES - Aprox. C/ Profesor García González
+                                    [fullAddress] => AVENIDA REINA MERCEDES - Aprox. C/ Profesor García González  
+                                    [lat] => 37.36023322886115
+                                    [lng] => -5.986318234050904
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [65] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 146_AVENIDA REINA MERCEDES
+                                    [number] => 146
+                                    [address] => AVENIDA REINA MERCEDES - Aprox. C/ Profesor García González
+                                    [fullAddress] => AVENIDA REINA MERCEDES - Aprox. C/ Profesor García González  
+                                    [lat] => 37.360100626411395
+                                    [lng] => -5.986312974875395
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [66] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 148_CALLE THARSIS
+                                    [number] => 148
+                                    [address] => CALLE THARSIS - Aprox. C/ Aorno
+                                    [fullAddress] => CALLE THARSIS - Aprox. C/ Aorno  
+                                    [lat] => 37.39876767567268
+                                    [lng] => -5.973182395926595
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [67] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 149_CALLE ARROYO
+                                    [number] => 149
+                                    [address] => CALLE ARROYO - Aprox. C/ Tena
+                                    [fullAddress] => CALLE ARROYO - Aprox. C/ Tena  
+                                    [lat] => 37.397829929383036
+                                    [lng] => -5.975671720395519
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [68] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 152_CALLE SAMANIEGO
+                                    [number] => 152
+                                    [address] => CALLE SAMANIEGO - Aprox. C/ Esperanza de la Trinidad
+                                    [fullAddress] => CALLE SAMANIEGO - Aprox. C/ Esperanza de la Trinidad  
+                                    [lat] => 37.39579051187385
+                                    [lng] => -5.974373150575757
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [69] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 154_AVENIDA KANSAS CITY
+                                    [number] => 154
+                                    [address] => AVENIDA KANSAS CITY - Aprox. C/ Naranjito de Triana
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. C/ Naranjito de Triana  
+                                    [lat] => 37.39483651024631
+                                    [lng] => -5.96842612917054
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [70] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 155_AVENIDA KANSAS CITY
+                                    [number] => 155
+                                    [address] => AVENIDA KANSAS CITY - Aprox. Avda El Greco
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. Avda El Greco  
+                                    [lat] => 37.392910501713985
+                                    [lng] => -5.970739136171973
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [71] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 160_CALLE ARJONA
+                                    [number] => 160
+                                    [address] => CALLE ARJONA - Aprox. Puente de Triana
+                                    [fullAddress] => CALLE ARJONA - Aprox. Puente de Triana  
+                                    [lat] => 37.38738642776967
+                                    [lng] => -6.001584843501603
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [72] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 161_AVENIDA ALCALDE MANUEL DEL VALLE
+                                    [number] => 161
+                                    [address] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ Baltasar de Alcázar
+                                    [fullAddress] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ Baltasar de Alcázar  
+                                    [lat] => 37.40000053060032
+                                    [lng] => -5.969103134518509
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [73] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 009_CAMINO DE LOS DESCUBRIMIENTOS
+                                    [number] => 9
+                                    [address] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. C/ Albert Einstein
+                                    [fullAddress] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. C/ Albert Einstein  
+                                    [lat] => 37.40332453110276
+                                    [lng] => -6.004020258912579
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [74] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 122_CALLE ENRAMADILLA
+                                    [number] => 122
+                                    [address] => CALLE ENRAMADILLA - Aprox. C/ Balbino Marrón
+                                    [fullAddress] => CALLE ENRAMADILLA - Aprox. C/ Balbino Marrón  
+                                    [lat] => 37.37848444133301
+                                    [lng] => -5.978389154681133
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [75] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 124_CALLE ENRAMADILLA
+                                    [number] => 124
+                                    [address] => CALLE ENRAMADILLA - Aprox. C/ Barrau
+                                    [fullAddress] => CALLE ENRAMADILLA - Aprox. C/ Barrau  
+                                    [lat] => 37.377730438744116
+                                    [lng] => -5.977244150228713
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [76] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 157_AVENIDA CARDENAL BUENO MONREAL
+                                    [number] => 157
+                                    [address] => AVENIDA CARDENAL BUENO MONREAL - Aprox. Avda Ramón Carande
+                                    [fullAddress] => AVENIDA CARDENAL BUENO MONREAL - Aprox. Avda Ramón Carande  
+                                    [lat] => 37.36979940542446
+                                    [lng] => -5.978194722821982
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [77] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 159_AVENIDA CARDENAL BUENO MONREAL
+                                    [number] => 159
+                                    [address] => AVENIDA CARDENAL BUENO MONREAL - Aprox. Avda Manuel Siurot
+                                    [fullAddress] => AVENIDA CARDENAL BUENO MONREAL - Aprox. Avda Manuel Siurot  
+                                    [lat] => 37.36804539727759
+                                    [lng] => -5.984854171329494
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [78] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 158_AVENIDA CARDENAL BUENO MONREAL
+                                    [number] => 158
+                                    [address] => AVENIDA CARDENAL BUENO MONREAL - Aprox. C/ Bogota
+                                    [fullAddress] => AVENIDA CARDENAL BUENO MONREAL - Aprox. C/ Bogota  
+                                    [lat] => 37.3688534016955
+                                    [lng] => -5.981618160442233
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [79] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 140_CALLE FELIPE II
+                                    [number] => 140
+                                    [address] => CALLE FELIPE II - Aprox. Avda Diego Martínez Barrio
+                                    [fullAddress] => CALLE FELIPE II - Aprox. Avda Diego Martínez Barrio  
+                                    [lat] => 37.372370417303884
+                                    [lng] => -5.977362147544427
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [80] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 116_CALLE MANUEL SIUROT
+                                    [number] => 116
+                                    [address] => CALLE MANUEL SIUROT - Aprox. Hospital Universitario Virgen del Rocio
+                                    [fullAddress] => CALLE MANUEL SIUROT - Aprox. Hospital Universitario Virgen del Rocio  
+                                    [lat] => 37.36143037206055
+                                    [lng] => -5.981603156091943
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [81] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 141_CALLE FELIPE II
+                                    [number] => 141
+                                    [address] => CALLE FELIPE II - Aprox. C/ Ramón Carande
+                                    [fullAddress] => CALLE FELIPE II - Aprox. C/ Ramón Carande  
+                                    [lat] => 37.37173344957564
+                                    [lng] => -5.981895354240737
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [82] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 021_CALLE MANUEL VILLALOBOS
+                                    [number] => 21
+                                    [address] => CALLE MANUEL VILLALOBOS - Aprox. C/ Madre San Marcelo
+                                    [fullAddress] => CALLE MANUEL VILLALOBOS - Aprox. C/ Madre San Marcelo  
+                                    [lat] => 37.40547354789234
+                                    [lng] => -5.981527181236149
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [83] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 025_AVENIDA DE LA CRUZ ROJA
+                                    [number] => 25
+                                    [address] => AVENIDA DE LA CRUZ ROJA - Aprox. C/ Albaida
+                                    [fullAddress] => AVENIDA DE LA CRUZ ROJA - Aprox. C/ Albaida  
+                                    [lat] => 37.40313253870445
+                                    [lng] => -5.981109178424791
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [84] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 031_AVENIDA DE MIRAFLORES
+                                    [number] => 31
+                                    [address] => AVENIDA DE MIRAFLORES - Aprox. C/ Albaida
+                                    [fullAddress] => AVENIDA DE MIRAFLORES - Aprox. C/ Albaida  
+                                    [lat] => 37.40054152885159
+                                    [lng] => -5.979781172277264
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [85] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 053_CALLE REYES CATÓLICOS
+                                    [number] => 53
+                                    [address] => CALLE REYES CATÓLICOS - Aprox. C/ Gravina
+                                    [fullAddress] => CALLE REYES CATÓLICOS - Aprox. C/ Gravina  
+                                    [lat] => 37.38934147689296
+                                    [lng] => -5.999605235382445
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [86] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 065_CALLE ALHÓNDIGA
+                                    [number] => 65
+                                    [address] => CALLE ALHÓNDIGA - Aprox. Card. Cervantes
+                                    [fullAddress] => CALLE ALHÓNDIGA - Aprox. Card. Cervantes  
+                                    [lat] => 37.391299488908295
+                                    [lng] => -5.988140196280803
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [87] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 072_CALLE AMADOR DE LOS RIOS
+                                    [number] => 72
+                                    [address] => CALLE AMADOR DE LOS RIOS - Aprox. C/ Lope de Vega
+                                    [fullAddress] => CALLE AMADOR DE LOS RIOS - Aprox. C/ Lope de Vega  
+                                    [lat] => 37.39071248853365
+                                    [lng] => -5.982768177096753
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [88] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 074_PLAZA PILATOS
+                                    [number] => 74
+                                    [address] => PLAZA PILATOS - Aprox. C/ San Esteban
+                                    [fullAddress] => PLAZA PILATOS - Aprox. C/ San Esteban  
+                                    [lat] => 37.389771483264596
+                                    [lng] => -5.986897191039803
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [89] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 083_AVENIDA LA BUHAIRA
+                                    [number] => 83
+                                    [address] => AVENIDA LA BUHAIRA - Aprox. Avda Luis Montoto
+                                    [fullAddress] => AVENIDA LA BUHAIRA - Aprox. Avda Luis Montoto  
+                                    [lat] => 37.386955475268515
+                                    [lng] => -5.978051158384551
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [90] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 084_CALLE JOSÉ MARÍA MORENO GALVÁN
+                                    [number] => 84
+                                    [address] => CALLE JOSÉ MARÍA MORENO GALVÁN - Aprox. C/ Juan Antonio Cabestany
+                                    [fullAddress] => CALLE JOSÉ MARÍA MORENO GALVÁN - Aprox. C/ Juan Antonio Cabestany  
+                                    [lat] => 37.387350475004816
+                                    [lng] => -5.983068176211725
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [91] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 097_PASEO DE CRISTÓBAL COLÓN
+                                    [number] => 97
+                                    [address] => PASEO DE CRISTÓBAL COLÓN - Aprox. Torre del Oro
+                                    [fullAddress] => PASEO DE CRISTÓBAL COLÓN - Aprox. Torre del Oro  
+                                    [lat] => 37.38153544721097
+                                    [lng] => -5.995552216661944
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [92] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 106_AVENIDA EDUARDO DATO
+                                    [number] => 106
+                                    [address] => AVENIDA EDUARDO DATO - Aprox. C/ Oscar Carvallo
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Aprox. C/ Oscar Carvallo  
+                                    [lat] => 37.383797462883464
+                                    [lng] => -5.977454154468565
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [93] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 131_CALLE TABLADILLA
+                                    [number] => 131
+                                    [address] => CALLE TABLADILLA - Aprox. C/ Cardenal Ilundaín
+                                    [fullAddress] => CALLE TABLADILLA - Aprox. C/ Cardenal Ilundaín  
+                                    [lat] => 37.364750385373725
+                                    [lng] => -5.981452157485012
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [94] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 134_CALLE VIRGEN DE LUJÁN
+                                    [number] => 134
+                                    [address] => CALLE VIRGEN DE LUJÁN - Aprox. C/ Asunción
+                                    [fullAddress] => CALLE VIRGEN DE LUJÁN - Aprox. C/ Asunción  
+                                    [lat] => 37.374770419100905
+                                    [lng] => -5.998536223231469
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [95] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 137_AVENIDA DE LA BORBOLLA
+                                    [number] => 137
+                                    [address] => AVENIDA DE LA BORBOLLA - Aprox. C/ Porvenir
+                                    [fullAddress] => AVENIDA DE LA BORBOLLA - Aprox. C/ Porvenir  
+                                    [lat] => 37.37375841984501
+                                    [lng] => -5.985517176959137
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [96] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 150_CALLE SAN JUAN BOSCO
+                                    [number] => 150
+                                    [address] => CALLE SAN JUAN BOSCO - Aprox. C/ Arroyo
+                                    [fullAddress] => CALLE SAN JUAN BOSCO - Aprox. C/ Arroyo  
+                                    [lat] => 37.39674851413617
+                                    [lng] => -5.978634166071806
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [97] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 024_CALLE LEÓN XIII
+                                    [number] => 24
+                                    [address] => CALLE LEÓN XIII - Aprox. C/ Fray Isidoro de Sevilla
+                                    [fullAddress] => CALLE LEÓN XIII - Aprox. C/ Fray Isidoro de Sevilla  
+                                    [lat] => 37.40403554103479
+                                    [lng] => -5.984592191160378
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [98] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 032_CALLE MUÑOZ LEÓN
+                                    [number] => 32
+                                    [address] => CALLE MUÑOZ LEÓN - Aprox. C/ Morera
+                                    [fullAddress] => CALLE MUÑOZ LEÓN - Aprox. C/ Morera  
+                                    [lat] => 37.402019532357485
+                                    [lng] => -5.986323196073661
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [99] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 080_CALLE LUIS MONTOTO
+                                    [number] => 80
+                                    [address] => CALLE LUIS MONTOTO - Aprox. C/ Alberto Duero
+                                    [fullAddress] => CALLE LUIS MONTOTO - Aprox. C/ Alberto Duero  
+                                    [lat] => 37.387627476858945
+                                    [lng] => -5.981027169211464
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [100] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 082_CALLE LUIS MONTOTO
+                                    [number] => 82
+                                    [address] => CALLE LUIS MONTOTO - Aprox. C/ Maese Farfán
+                                    [fullAddress] => CALLE LUIS MONTOTO - Aprox. C/ Maese Farfán  
+                                    [lat] => 37.38709847701637
+                                    [lng] => -5.974843147214583
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [101] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 102_CALLE JUAN DE MATA CARRIAZO
+                                    [number] => 102
+                                    [address] => CALLE JUAN DE MATA CARRIAZO - Aprox. antigua estación San Bernardo
+                                    [fullAddress] => CALLE JUAN DE MATA CARRIAZO - Aprox. antigua estación San Bernardo  
+                                    [lat] => 37.38273945636004
+                                    [lng] => -5.983720175839885
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [102] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 005_CAMINO DE LOS DESCUBRIMIENTOS
+                                    [number] => 5
+                                    [address] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. C/ Thomás Alba Edison
+                                    [fullAddress] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. C/ Thomás Alba Edison  
+                                    [lat] => 37.41104356266495
+                                    [lng] => -6.001959256107801
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [103] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 068_CALLE JUAN ANTONIO CABESTANY
+                                    [number] => 68
+                                    [address] => CALLE JUAN ANTONIO CABESTANY - Aprox. Calle Júpiter
+                                    [fullAddress] => CALLE JUAN ANTONIO CABESTANY - Aprox. Calle Júpiter  
+                                    [lat] => 37.39029248788509
+                                    [lng] => -5.979964167018684
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [104] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 119_AVENIDA DE CHILE
+                                    [number] => 119
+                                    [address] => AVENIDA DE CHILE - Aprox. Costurero de la Reina
+                                    [fullAddress] => AVENIDA DE CHILE - Aprox. Costurero de la Reina  
+                                    [lat] => 37.37740443203299
+                                    [lng] => -5.991965201690994
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [105] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 164_CALLE LUIS MONTOTO
+                                    [number] => 164
+                                    [address] => CALLE LUIS MONTOTO - Aprox. C/ El Greco
+                                    [fullAddress] => CALLE LUIS MONTOTO - Aprox. C/ El Greco  
+                                    [lat] => 37.387649350924015
+                                    [lng] => -5.965655252045698
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [106] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 165_AVENIDA DE ANDALUCIA
+                                    [number] => 165
+                                    [address] => AVENIDA DE ANDALUCIA - Aprox. Centro Comercial Los Arcos
+                                    [fullAddress] => AVENIDA DE ANDALUCIA - Aprox. Centro Comercial Los Arcos  
+                                    [lat] => 37.387645484298076
+                                    [lng] => -5.96095309881845
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [107] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 112_AVDA ESPERANZA DE TRIANA
+                                    [number] => 112
+                                    [address] => AVDA ESPERANZA DE TRIANA - Aprox. Plaza Amadeo Janone
+                                    [fullAddress] => AVDA ESPERANZA DE TRIANA - Aprox. Plaza Amadeo Janone  
+                                    [lat] => 37.380153438452595
+                                    [lng] => -6.004383246859136
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [108] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 144_AVENIDA DE LA PALMERA
+                                    [number] => 144
+                                    [address] => AVENIDA DE LA PALMERA - Aprox. Clinica de Fátima
+                                    [fullAddress] => AVENIDA DE LA PALMERA - Aprox. Clinica de Fátima  
+                                    [lat] => 37.36912633937041
+                                    [lng] => -5.988080397280193
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [109] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 162_AVENIDA SOLEA
+                                    [number] => 162
+                                    [address] => AVENIDA SOLEA - Aprox. C/ Media Granaína
+                                    [fullAddress] => AVENIDA SOLEA - Aprox. C/ Media Granaína  
+                                    [lat] => 37.39154049708111
+                                    [lng] => -5.96846612741093
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [110] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 156_AVENIDA KANSAS CITY
+                                    [number] => 156
+                                    [address] => AVENIDA KANSAS CITY - Aprox. C/ Baltasar Gracián
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. C/ Baltasar Gracián  
+                                    [lat] => 37.39145341109661
+                                    [lng] => -5.972761755091493
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [111] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 076_PLAZA NUEVA
+                                    [number] => 76
+                                    [address] => PLAZA NUEVA - Aprox. C/ Jaen
+                                    [fullAddress] => PLAZA NUEVA - Aprox. C/ Jaen  
+                                    [lat] => 37.38893947673792
+                                    [lng] => -5.995646221258141
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [112] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 087_PLAZA NUEVA
+                                    [number] => 87
+                                    [address] => PLAZA NUEVA - Aprox. C/ Tetuan
+                                    [fullAddress] => PLAZA NUEVA - Aprox. C/ Tetuan  
+                                    [lat] => 37.38896647697466
+                                    [lng] => -5.995294220038549
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [113] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 121_CALLE DOCTOR PEDRO DE CASTRO
+                                    [number] => 121
+                                    [address] => CALLE DOCTOR PEDRO DE CASTRO - Aprox. C/ Doc. Gabriel Sánchez
+                                    [fullAddress] => CALLE DOCTOR PEDRO DE CASTRO - Aprox. C/ Doc. Gabriel Sánchez  
+                                    [lat] => 37.377158434736266
+                                    [lng] => -5.981935166355452
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [114] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 153_AVENIDA REINA MERCEDES
+                                    [number] => 153
+                                    [address] => AVENIDA REINA MERCEDES - Aprox. Escuela de arquitectura
+                                    [fullAddress] => AVENIDA REINA MERCEDES - Aprox. Escuela de arquitectura  
+                                    [lat] => 37.36297137649666
+                                    [lng] => -5.986262173333679
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [115] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 094_PLAZA DEL ZURRAQUE
+                                    [number] => 94
+                                    [address] => PLAZA DEL ZURRAQUE - Aprox. C/ Doc. Jeronimo Pou
+                                    [fullAddress] => PLAZA DEL ZURRAQUE - Aprox. C/ Doc. Jeronimo Pou  
+                                    [lat] => 37.38336944986274
+                                    [lng] => -6.008294262440252
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [116] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 038_CALLE DE INCA GARCILASO
+                                    [number] => 38
+                                    [address] => CALLE DE INCA GARCILASO - Aprox. C/ Juan Antonio de Vizarrón
+                                    [fullAddress] => CALLE DE INCA GARCILASO - Aprox. C/ Juan Antonio de Vizarrón  
+                                    [lat] => 37.3920814836453
+                                    [lng] => -6.011051277130786
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [117] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 114_GLORIETA PLUS ULTRA
+                                    [number] => 114
+                                    [address] => GLORIETA PLUS ULTRA - Aprox. Estadio Manuel Ruiz de Lopera
+                                    [fullAddress] => GLORIETA PLUS ULTRA - Aprox. Estadio Manuel Ruiz de Lopera  
+                                    [lat] => 37.35637235272571
+                                    [lng] => -5.979262144945245
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [118] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 136_CALLE ASUNCIÓN
+                                    [number] => 136
+                                    [address] => CALLE ASUNCIÓN - Aprox. C/ Virgen de la Antigua
+                                    [fullAddress] => CALLE ASUNCIÓN - Aprox. C/ Virgen de la Antigua  
+                                    [lat] => 37.37311941284756
+                                    [lng] => -5.997610219028108
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [119] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 018_AVENIDA EDUARDO DATO
+                                    [number] => 18
+                                    [address] => AVENIDA EDUARDO DATO - Aprox. C/ Marqués del Nervión
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Aprox. C/ Marqués del Nervión  
+                                    [lat] => 37.38207545943934
+                                    [lng] => -5.968121120738779
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [120] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 128_CALLE ARQUEROS
+                                    [number] => 128
+                                    [address] => CALLE ARQUEROS - Aprox. C/ Naos
+                                    [fullAddress] => CALLE ARQUEROS - Aprox. C/ Naos  
+                                    [lat] => 37.37645342505249
+                                    [lng] => -6.000632231559362
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [121] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 168_AVENIDA RAMÓN Y CAJAL
+                                    [number] => 168
+                                    [address] => AVENIDA RAMÓN Y CAJAL - Aprox. Avda de la Ciudad Jardín
+                                    [fullAddress] => AVENIDA RAMÓN Y CAJAL - Aprox. Avda de la Ciudad Jardín  
+                                    [lat] => 37.37505743166244
+                                    [lng] => -5.967492114476132
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [122] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 105_CALLE FRANCISCO MURILLO
+                                    [number] => 105
+                                    [address] => CALLE FRANCISCO MURILLO - Aprox. C/ Manuel Siurot
+                                    [fullAddress] => CALLE FRANCISCO MURILLO - Aprox. C/ Manuel Siurot  
+                                    [lat] => 37.35891036235994
+                                    [lng] => -5.980620151182153
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [123] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 117_AVDA ESPERANZA DE TRIANA
+                                    [number] => 117
+                                    [address] => AVDA ESPERANZA DE TRIANA - Aprox. Avda Republica Argentina
+                                    [fullAddress] => AVDA ESPERANZA DE TRIANA - Aprox. Avda Republica Argentina  
+                                    [lat] => 37.377806429728786
+                                    [lng] => -6.002613239293098
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [124] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 071_AVENIDA KANSAS CITY
+                                    [number] => 71
+                                    [address] => AVENIDA KANSAS CITY - Aprox. Hotel Occidental
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. Hotel Occidental  
+                                    [lat] => 37.390030488846236
+                                    [lng] => -5.974491147670695
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [125] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 002_GRAN PLAZA
+                                    [number] => 2
+                                    [address] => GRAN PLAZA - Aprox. Calle Marquez de Pickman
+                                    [fullAddress] => GRAN PLAZA - Aprox. Calle Marquez de Pickman  
+                                    [lat] => 37.381578045327934
+                                    [lng] => -5.96522396639778
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [126] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 167_GLORIETA BIZCO AMATE
+                                    [number] => 167
+                                    [address] => GLORIETA BIZCO AMATE - Aprox. Avda Ramón y Cajal
+                                    [fullAddress] => GLORIETA BIZCO AMATE - Aprox. Avda Ramón y Cajal  
+                                    [lat] => 37.37334966832237
+                                    [lng] => -5.964933613203329
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [127] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 126_AVENIDA REINA MERCEDES
+                                    [number] => 126
+                                    [address] => AVENIDA REINA MERCEDES - Aprox. Facultad de Informática
+                                    [fullAddress] => AVENIDA REINA MERCEDES - Aprox. Facultad de Informática  
+                                    [lat] => 37.35816485883939
+                                    [lng] => -5.986482708713183
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [128] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 169_AVENIDA RAMÓN Y CAJAL
+                                    [number] => 169
+                                    [address] => AVENIDA RAMÓN Y CAJAL - Aprox. C/ Villegas Marmolejo
+                                    [fullAddress] => AVENIDA RAMÓN Y CAJAL - Aprox. C/ Villegas Marmolejo  
+                                    [lat] => 37.37650143552164
+                                    [lng] => -5.972667133462907
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [129] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 170_PLAZA ANTONIO APARICIO HERRERO
+                                    [number] => 170
+                                    [address] => PLAZA ANTONIO APARICIO HERRERO - Aprox. C/ San Juan de Dios
+                                    [fullAddress] => PLAZA ANTONIO APARICIO HERRERO - Aprox. C/ San Juan de Dios  
+                                    [lat] => 37.37896644673701
+                                    [lng] => -5.968923121755333
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [130] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 028_CALLE RAFAEL SALGADO
+                                    [number] => 28
+                                    [address] => CALLE RAFAEL SALGADO - Aprox. C/ Castillo Alcala de Guadaira
+                                    [fullAddress] => CALLE RAFAEL SALGADO - Aprox. C/ Castillo Alcala de Guadaira  
+                                    [lat] => 37.360261369216595
+                                    [lng] => -5.976659138066708
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [131] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 033_CALLE LEÓN XIII
+                                    [number] => 33
+                                    [address] => CALLE LEÓN XIII - Aprox. C/ Antonio Pantión
+                                    [fullAddress] => CALLE LEÓN XIII - Aprox. C/ Antonio Pantión  
+                                    [lat] => 37.401460531089214
+                                    [lng] => -5.983690186516563
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [132] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 089_CALLE ADRIANO
+                                    [number] => 89
+                                    [address] => CALLE ADRIANO - Aprox. C/ Antonia Díaz
+                                    [fullAddress] => CALLE ADRIANO - Aprox. C/ Antonia Díaz  
+                                    [lat] => 37.38648146613877
+                                    [lng] => -5.997790227366178
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [133] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 171_CALLE ALFONSO LASO DE LA VEGA
+                                    [number] => 171
+                                    [address] => CALLE ALFONSO LASO DE LA VEGA - Aprox. Parroco Antonio González
+                                    [fullAddress] => CALLE ALFONSO LASO DE LA VEGA - Aprox. Parroco Antonio González  
+                                    [lat] => 37.36614639337372
+                                    [lng] => -5.974870135199807
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [134] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 172_RONDA TAMARGUILLO
+                                    [number] => 172
+                                    [address] => RONDA TAMARGUILLO - Aprox. Alfonso Laso de la Vega
+                                    [fullAddress] => RONDA TAMARGUILLO - Aprox. Alfonso Laso de la Vega  
+                                    [lat] => 37.36717239881862
+                                    [lng] => -5.971211122957581
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [135] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 173_RONDA TAMARGUILLO
+                                    [number] => 173
+                                    [address] => RONDA TAMARGUILLO - Aprox. Avda de la Paz
+                                    [fullAddress] => RONDA TAMARGUILLO - Aprox. Avda de la Paz  
+                                    [lat] => 37.370048411458974
+                                    [lng] => -5.968064113583803
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [136] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 030_AVENIDA EDUARDO DATO
+                                    [number] => 30
+                                    [address] => AVENIDA EDUARDO DATO - Detrás Estadio Sánchez Pizjuan
+                                    [fullAddress] => AVENIDA EDUARDO DATO - Detrás Estadio Sánchez Pizjuan  
+                                    [lat] => 37.382628460642394
+                                    [lng] => -5.970853130640082
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [137] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 111_PZA FARMACÉUTICO MURILLO HERRERA
+                                    [number] => 111
+                                    [address] => PZA FARMACÉUTICO MURILLO HERRERA - Aprox. C/ Pajes de Corro
+                                    [fullAddress] => PZA FARMACÉUTICO MURILLO HERRERA - Aprox. C/ Pajes de Corro  
+                                    [lat] => 37.3813174443225
+                                    [lng] => -6.001053235842167
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [138] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 115_CALLE LOPEZ DE GOMARA
+                                    [number] => 115
+                                    [address] => CALLE LOPEZ DE GOMARA - En frente Instituto Adolfo Becker
+                                    [fullAddress] => CALLE LOPEZ DE GOMARA - En frente Instituto Adolfo Becker  
+                                    [lat] => 37.37789242837545
+                                    [lng] => -6.007237255573729
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [139] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 163_CALLE SINAÍ
+                                    [number] => 163
+                                    [address] => CALLE SINAÍ - Aprox. C/ Baltazar Gracián
+                                    [fullAddress] => CALLE SINAÍ - Aprox. C/ Baltazar Gracián  
+                                    [lat] => 37.389954489895956
+                                    [lng] => -5.970802134688754
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [140] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 034_PLAZA PUMAREJO
+                                    [number] => 34
+                                    [address] => PLAZA PUMAREJO - Aprox. Calle San Luis
+                                    [fullAddress] => PLAZA PUMAREJO - Aprox. Calle San Luis  
+                                    [lat] => 37.40102752757453
+                                    [lng] => -5.988578203413862
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [141] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 047_CALLE HINIESTA
+                                    [number] => 47
+                                    [address] => CALLE HINIESTA - Aprox. Convento Santa Isabel
+                                    [fullAddress] => CALLE HINIESTA - Aprox. Convento Santa Isabel  
+                                    [lat] => 37.39713251259333
+                                    [lng] => -5.987037195768433
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [142] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 050_CALLE DE HERNÁN CORTÉS
+                                    [number] => 50
+                                    [address] => CALLE DE HERNÁN CORTÉS - Aprox. C/ Eslava
+                                    [fullAddress] => CALLE DE HERNÁN CORTÉS - Aprox. C/ Eslava  
+                                    [lat] => 37.397554510745486
+                                    [lng] => -5.996695229895344
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [143] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 174_RONDA TAMARGUILLO
+                                    [number] => 174
+                                    [address] => RONDA TAMARGUILLO - Aprox. Marqués de Pickman
+                                    [fullAddress] => RONDA TAMARGUILLO - Aprox. Marqués de Pickman  
+                                    [lat] => 37.38061245637617
+                                    [lng] => -5.960574093426685
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [144] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 151_CALLE URQUIZA
+                                    [number] => 151
+                                    [address] => CALLE URQUIZA - Aprox. C/ Venecia
+                                    [fullAddress] => CALLE URQUIZA - Aprox. C/ Venecia  
+                                    [lat] => 37.39454446694585
+                                    [lng] => -5.979897194354694
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [145] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 054_PLAZA SAN JUAN DE LA PALMA
+                                    [number] => 54
+                                    [address] => PLAZA SAN JUAN DE LA PALMA - Aprox. iglesia
+                                    [fullAddress] => PLAZA SAN JUAN DE LA PALMA - Aprox. iglesia  
+                                    [lat] => 37.39523950356959
+                                    [lng] => -5.991050208758028
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [146] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 127_CALLE VIRGEN DE LA VICTORIA
+                                    [number] => 127
+                                    [address] => CALLE VIRGEN DE LA VICTORIA - Aprox. C/ Asunción
+                                    [fullAddress] => CALLE VIRGEN DE LA VICTORIA - Aprox. C/ Asunción  
+                                    [lat] => 37.37764043077862
+                                    [lng] => -5.997947222820481
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [147] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 039_PLAZA SAN ANTONIO DE PADUA
+                                    [number] => 39
+                                    [address] => PLAZA SAN ANTONIO DE PADUA - Aprox. C/ Marqués de la Mina
+                                    [fullAddress] => PLAZA SAN ANTONIO DE PADUA - Aprox. C/ Marqués de la Mina  
+                                    [lat] => 37.39784002230437
+                                    [lng] => -5.998504686877961
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [148] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 063_CALLE SAN PABLO
+                                    [number] => 63
+                                    [address] => CALLE SAN PABLO - Aprox. C/ Bailén
+                                    [fullAddress] => CALLE SAN PABLO - Aprox. C/ Bailén  
+                                    [lat] => 37.390456481894525
+                                    [lng] => -5.998103230753266
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [149] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 175_RONDA TAMARGUILLO
+                                    [number] => 175
+                                    [address] => RONDA TAMARGUILLO - Plaza Ruperto Chapí
+                                    [fullAddress] => RONDA TAMARGUILLO - Plaza Ruperto Chapí  
+                                    [lat] => 37.37775744487495
+                                    [lng] => -5.960870092813821
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [150] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 026_AVENIDA DE MIRAFLORES
+                                    [number] => 26
+                                    [address] => AVENIDA DE MIRAFLORES - Aprox. C/ Manuel Ródenas
+                                    [fullAddress] => AVENIDA DE MIRAFLORES - Aprox. C/ Manuel Ródenas  
+                                    [lat] => 37.40249453741322
+                                    [lng] => -5.977678166024575
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [151] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 041_PLAZA CALDERÓN DE LA BARCA
+                                    [number] => 41
+                                    [address] => PLAZA CALDERÓN DE LA BARCA - Aprox. C/ Amargura
+                                    [fullAddress] => PLAZA CALDERÓN DE LA BARCA - Aprox. C/ Amargura  
+                                    [lat] => 37.39958252091155
+                                    [lng] => -5.991029211181825
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [152] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 060_PLAZA DE LA CONCORDIA
+                                    [number] => 60
+                                    [address] => PLAZA DE LA CONCORDIA - Aprox. C/ Teniente Borges
+                                    [fullAddress] => PLAZA DE LA CONCORDIA - Aprox. C/ Teniente Borges  
+                                    [lat] => 37.39395749631202
+                                    [lng] => -5.996899228542791
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [153] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 176_AVENIDA DE LA CIUDAD JARDÍN
+                                    [number] => 176
+                                    [address] => AVENIDA DE LA CIUDAD JARDÍN - Aprox. C/ Profesor Braña
+                                    [fullAddress] => AVENIDA DE LA CIUDAD JARDÍN - Aprox. C/ Profesor Braña  
+                                    [lat] => 37.3775594419921
+                                    [lng] => -5.966557112643772
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [154] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 178_CALLE JOSÉ SARAMAGO
+                                    [number] => 178
+                                    [address] => CALLE JOSÉ SARAMAGO - Aprox. Avda del Alcalde Juan Fernández
+                                    [fullAddress] => CALLE JOSÉ SARAMAGO - Aprox. Avda del Alcalde Juan Fernández  
+                                    [lat] => 37.373304076262805
+                                    [lng] => -5.97391890132113
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [155] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 059_AVENIDA DE LA PALMERA
+                                    [number] => 59
+                                    [address] => AVENIDA DE LA PALMERA - Aprox. Avenida del Líbano
+                                    [fullAddress] => AVENIDA DE LA PALMERA - Aprox. Avenida del Líbano  
+                                    [lat] => 37.37123840842449
+                                    [lng] => -5.989210188461531
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [156] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 147_CARRETERA DE CARMONA
+                                    [number] => 147
+                                    [address] => CARRETERA DE CARMONA - Aprox. C/ Maestro Solano
+                                    [fullAddress] => CARRETERA DE CARMONA - Aprox. C/ Maestro Solano  
+                                    [lat] => 37.40079553153059
+                                    [lng] => -5.975228156455095
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [157] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 013_CALLE FERIA
+                                    [number] => 13
+                                    [address] => CALLE FERIA - Aprox. C/ Resolana
+                                    [fullAddress] => CALLE FERIA - Aprox. C/ Resolana  
+                                    [lat] => 37.40313353475898
+                                    [lng] => -5.991918216341031
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [158] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 003_PUERTA DE LA BARQUETA
+                                    [number] => 3
+                                    [address] => PUERTA DE LA BARQUETA - Aprox. Puente de la Barqueta
+                                    [fullAddress] => PUERTA DE LA BARQUETA - Aprox. Puente de la Barqueta  
+                                    [lat] => 37.40564154237002
+                                    [lng] => -5.998488240831263
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [159] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 045_CARRETERA DE CARMONA
+                                    [number] => 45
+                                    [address] => CARRETERA DE CARMONA - Aprox. C/ de Francisco de Ariño
+                                    [fullAddress] => CARRETERA DE CARMONA - Aprox. C/ de Francisco de Ariño  
+                                    [lat] => 37.399920527076716
+                                    [lng] => -5.97781616502751
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [160] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 088_CALLE AMERICO VESPUCIO
+                                    [number] => 88
+                                    [address] => CALLE AMERICO VESPUCIO - Aprox. C/ Hermanos d'Eluyar
+                                    [fullAddress] => CALLE AMERICO VESPUCIO - Aprox. C/ Hermanos d'Eluyar  
+                                    [lat] => 37.40934127713802
+                                    [lng] => -6.006338859390215
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [161] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 067_CALLE LEONARDO DA VINCI
+                                    [number] => 67
+                                    [address] => CALLE LEONARDO DA VINCI - Aprox. C/ Albert Einstein
+                                    [fullAddress] => CALLE LEONARDO DA VINCI - Aprox. C/ Albert Einstein  
+                                    [lat] => 37.404162533250535
+                                    [lng] => -6.00730227091074
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [162] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 095_CALLE AMÉRICO VESPUCIO
+                                    [number] => 95
+                                    [address] => CALLE AMÉRICO VESPUCIO - Aprox. C/ Juan Bautista Muñoz
+                                    [fullAddress] => CALLE AMÉRICO VESPUCIO - Aprox. C/ Juan Bautista Muñoz  
+                                    [lat] => 37.41217356557977
+                                    [lng] => -6.006338272120392
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [163] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 184_AVENIDA ALCALDE MANUEL DEL VALLE
+                                    [number] => 184
+                                    [address] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ San Juan de la Salle
+                                    [fullAddress] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ San Juan de la Salle  
+                                    [lat] => 37.408524564095075
+                                    [lng] => -5.97049314429485
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [164] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 099_CALLE AMÉRICO VESPUCIO
+                                    [number] => 99
+                                    [address] => CALLE AMÉRICO VESPUCIO - Aprox. Gerencia de Urbanismo de Sevilla
+                                    [fullAddress] => CALLE AMÉRICO VESPUCIO - Aprox. Gerencia de Urbanismo de Sevilla  
+                                    [lat] => 37.39739450501054
+                                    [lng] => -6.010641278744458
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [165] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 179_RONDA URBANA NORTE
+                                    [number] => 179
+                                    [address] => RONDA URBANA NORTE - Aprox. C/ de Rimas
+                                    [fullAddress] => RONDA URBANA NORTE - Aprox. C/ de Rimas  
+                                    [lat] => 37.413163177395056
+                                    [lng] => -5.985131221637643
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [166] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 091_CALLE PROCURADOR
+                                    [number] => 91
+                                    [address] => CALLE PROCURADOR - Clara de Jesús Monteto
+                                    [fullAddress] => CALLE PROCURADOR - Clara de Jesús Monteto  
+                                    [lat] => 37.38690746421922
+                                    [lng] => -6.007674262301094
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [167] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 180_CALLE DOCTOR JAIME MARCOS
+                                    [number] => 180
+                                    [address] => CALLE DOCTOR JAIME MARCOS - Aprox. Avda. Doc. Fedriani
+                                    [fullAddress] => CALLE DOCTOR JAIME MARCOS - Aprox. Avda. Doc. Fedriani  
+                                    [lat] => 37.40964956350476
+                                    [lng] => -5.98440119371439
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [168] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 181_RONDA URBANA NORTE
+                                    [number] => 181
+                                    [address] => RONDA URBANA NORTE - Aprox. C/ Doctor Fedriani
+                                    [fullAddress] => RONDA URBANA NORTE - Aprox. C/ Doctor Fedriani  
+                                    [lat] => 37.41335157894307
+                                    [lng] => -5.982568189409848
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [169] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 185_AVENIDA ALCALDE MANUEL DEL VALLE
+                                    [number] => 185
+                                    [address] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ Alejandro Sawa
+                                    [fullAddress] => AVENIDA ALCALDE MANUEL DEL VALLE - Aprox. C/ Alejandro Sawa  
+                                    [lat] => 37.405094315694036
+                                    [lng] => -5.968862135165761
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [170] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 186_CALLE ORFEBRE DOMINGUEZ VÁZQUEZ
+                                    [number] => 186
+                                    [address] => CALLE ORFEBRE DOMINGUEZ VÁZQUEZ - Aprox. C/ Pino Montano
+                                    [fullAddress] => CALLE ORFEBRE DOMINGUEZ VÁZQUEZ - Aprox. C/ Pino Montano  
+                                    [lat] => 37.40860456343952
+                                    [lng] => -5.973161153696026
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [171] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 197_CALLE AGRICULTORES
+                                    [number] => 197
+                                    [address] => CALLE AGRICULTORES - Aprox. C/ estrella Betelgeuse
+                                    [fullAddress] => CALLE AGRICULTORES - Aprox. C/ estrella Betelgeuse  
+                                    [lat] => 37.42343862506507
+                                    [lng] => -5.96640413851815
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [172] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 196_CALLE ESTRELLA CANOPUS
+                                    [number] => 196
+                                    [address] => CALLE ESTRELLA CANOPUS - Aprox. C/ estrella Betelgeuse
+                                    [fullAddress] => CALLE ESTRELLA CANOPUS - Aprox. C/ estrella Betelgeuse  
+                                    [lat] => 37.42470162875488
+                                    [lng] => -5.970101152202059
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [173] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 194_CALLE PARQUE DE DOÑANA
+                                    [number] => 194
+                                    [address] => CALLE PARQUE DE DOÑANA - Aprox. Calle Corral de los Olmos
+                                    [fullAddress] => CALLE PARQUE DE DOÑANA - Aprox. Calle Corral de los Olmos  
+                                    [lat] => 37.41873260382446
+                                    [lng] => -5.97319415962488
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [174] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 182_CALLE VICTORIA KENT
+                                    [number] => 182
+                                    [address] => CALLE VICTORIA KENT - Aprox. Avda Alcalde Manuel del Valle
+                                    [fullAddress] => CALLE VICTORIA KENT - Aprox. Avda Alcalde Manuel del Valle  
+                                    [lat] => 37.41459658707776
+                                    [lng] => -5.973881159661203
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [175] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 198_CALLE MAR DE ALBORÁN
+                                    [number] => 198
+                                    [address] => CALLE MAR DE ALBORÁN - Aprox. C/ Camino de los Toros
+                                    [fullAddress] => CALLE MAR DE ALBORÁN - Aprox. C/ Camino de los Toros  
+                                    [lat] => 37.42044661256891
+                                    [lng] => -5.967956142243533
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [176] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 191_GLORIETA CARLOS CANO
+                                    [number] => 191
+                                    [address] => GLORIETA CARLOS CANO - Aprox. C/ Blas Infante
+                                    [fullAddress] => GLORIETA CARLOS CANO - Aprox. C/ Blas Infante  
+                                    [lat] => 37.37411641267212
+                                    [lng] => -6.008853259077473
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [177] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 066_CALLE ARROYO
+                                    [number] => 66
+                                    [address] => CALLE ARROYO - Aprox. Avda. José Laguillo
+                                    [fullAddress] => CALLE ARROYO - Aprox. Avda. José Laguillo  
+                                    [lat] => 37.39362550048881
+                                    [lng] => -5.981869175620968
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [178] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 201_CALLE PINO MONTANO
+                                    [number] => 201
+                                    [address] => CALLE PINO MONTANO - Aprox. C/ Estafeta
+                                    [fullAddress] => CALLE PINO MONTANO - Aprox. C/ Estafeta  
+                                    [lat] => 37.41568359361039
+                                    [lng] => -5.967858139167567
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [179] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 061_PLAZA DEL MUSEO
+                                    [number] => 61
+                                    [address] => PLAZA DEL MUSEO - Aprox. C/ Alfonso XII
+                                    [fullAddress] => PLAZA DEL MUSEO - Aprox. C/ Alfonso XII  
+                                    [lat] => 37.39281349085037
+                                    [lng] => -5.999344236464369
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [180] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 086_CAMINO DE LOS DESCUBRIMIENTOS
+                                    [number] => 86
+                                    [address] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. Pasarela de la Cartuja
+                                    [fullAddress] => CAMINO DE LOS DESCUBRIMIENTOS - Aprox. Pasarela de la Cartuja  
+                                    [lat] => 37.39707250530929
+                                    [lng] => -6.006304263337968
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [181] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 096_CALLE BETIS
+                                    [number] => 96
+                                    [address] => CALLE BETIS - Aprox. C/ Juan de Lugo
+                                    [fullAddress] => CALLE BETIS - Aprox. C/ Juan de Lugo  
+                                    [lat] => 37.3835407311529
+                                    [lng] => -5.999910722822249
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [182] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 183_ALCALDE MANUEL DEL VALLE
+                                    [number] => 183
+                                    [address] => ALCALDE MANUEL DEL VALLE - Aprox. C/ Pino Montano
+                                    [fullAddress] => ALCALDE MANUEL DEL VALLE - Aprox. C/ Pino Montano  
+                                    [lat] => 37.41101757377389
+                                    [lng] => -5.97121914827267
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [183] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 203_CALLE TESALÓNICA
+                                    [number] => 203
+                                    [address] => CALLE TESALÓNICA - Calle Mazzantini
+                                    [fullAddress] => CALLE TESALÓNICA - Calle Mazzantini  
+                                    [lat] => 37.39609351880257
+                                    [lng] => -5.958764096016824
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [184] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 200_CAMINO DE LOS TOROS
+                                    [number] => 200
+                                    [address] => CAMINO DE LOS TOROS - Aprox. C/ Mediterráneo
+                                    [fullAddress] => CAMINO DE LOS TOROS - Aprox. C/ Mediterráneo  
+                                    [lat] => 37.4189136081837
+                                    [lng] => -5.963217124751443
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [185] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 187_CALLE DOCTOR LAFFON
+                                    [number] => 187
+                                    [address] => CALLE DOCTOR LAFFON - Aprox. C/ Efeso
+                                    [fullAddress] => CALLE DOCTOR LAFFON - Aprox. C/ Efeso  
+                                    [lat] => 37.39540051410288
+                                    [lng] => -5.964043114126317
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [186] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 199_MAR DE ALBORÁN
+                                    [number] => 199
+                                    [address] => MAR DE ALBORÁN - Aprox. Corral de los Olmos
+                                    [fullAddress] => MAR DE ALBORÁN - Aprox. Corral de los Olmos  
+                                    [lat] => 37.417855601747895
+                                    [lng] => -5.969296145455354
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [187] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 202_AVENIDA MUJER TRABAJADORA
+                                    [number] => 202
+                                    [address] => AVENIDA MUJER TRABAJADORA - Aprox. Avda Miraflores
+                                    [fullAddress] => AVENIDA MUJER TRABAJADORA - Aprox. Avda Miraflores  
+                                    [lat] => 37.41146657719195
+                                    [lng] => -5.966763132907271
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [188] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 195_CALLE CORRAL DEL AGUA
+                                    [number] => 195
+                                    [address] => CALLE CORRAL DEL AGUA - Aprox. Camino de los toros
+                                    [fullAddress] => CALLE CORRAL DEL AGUA - Aprox. Camino de los toros  
+                                    [lat] => 37.421715616284196
+                                    [lng] => -5.971648155914519
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [189] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 177_AVENIDA ALCALDE JUAN FERNÁNDEZ
+                                    [number] => 177
+                                    [address] => AVENIDA ALCALDE JUAN FERNÁNDEZ - Aprox. C/ Profesor Buenaventura Pinillos
+                                    [fullAddress] => AVENIDA ALCALDE JUAN FERNÁNDEZ - Aprox. C/ Profesor Buenaventura Pinillos  
+                                    [lat] => 37.373068423133994
+                                    [lng] => -5.9690941189446
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [190] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 207_CALLE IFNI
+                                    [number] => 207
+                                    [address] => CALLE IFNI - Aprox. Avda de Holanda
+                                    [fullAddress] => CALLE IFNI - Aprox. Avda de Holanda  
+                                    [lat] => 37.35501634616241
+                                    [lng] => -5.982370155065175
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [191] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 205_AVENIDA KANSAS CITY
+                                    [number] => 205
+                                    [address] => AVENIDA KANSAS CITY - Aprox. Pza el Tato
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. Pza el Tato  
+                                    [lat] => 37.399817146292996
+                                    [lng] => -5.961922341869038
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [192] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 208_AVENIDA DE GRECIA
+                                    [number] => 208
+                                    [address] => AAVENIDA DE GRECIA - Aprox. Avda de Italia
+                                    [fullAddress] => AAVENIDA DE GRECIA - Aprox. Avda de Italia  
+                                    [lat] => 37.35065632807553
+                                    [lng] => -5.984190158922543
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [193] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 193_AVENIDA DE CORIA
+                                    [number] => 193
+                                    [address] => AVENIDA DE CORIA - Aprox. C/ Coruña
+                                    [fullAddress] => AVENIDA DE CORIA - Aprox. C/ Coruña  
+                                    [lat] => 37.381111439484236
+                                    [lng] => -6.012005274166835
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [194] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 213_AVENIDA DE ANDALUCIA
+                                    [number] => 213
+                                    [address] => AVENIDA DE ANDALUCIA - Aprox. Cochera de TUSSAM
+                                    [fullAddress] => AVENIDA DE ANDALUCIA - Aprox. Cochera de TUSSAM  
+                                    [lat] => 37.387143486904044
+                                    [lng] => -5.948410054553437
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [195] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 090_CALLE ROMA
+                                    [number] => 90
+                                    [address] => CALLE ROMA - Aprox. C/ Palos de la Frontera
+                                    [fullAddress] => CALLE ROMA - Aprox. C/ Palos de la Frontera  
+                                    [lat] => 37.381198446608074
+                                    [lng] => -5.993528209364882
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [196] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 192_AVENIDA DE ALVAR NUÑEZ
+                                    [number] => 192
+                                    [address] => AVENIDA DE ALVAR NUÑEZ - Aprox. C/ Collante
+                                    [fullAddress] => AVENIDA DE ALVAR NUÑEZ - Aprox. C/ Collante  
+                                    [lat] => 37.37833442855656
+                                    [lng] => -6.011556270990402
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [197] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 120_GLORIETA SAN DIEGO
+                                    [number] => 120
+                                    [address] => GLORIETA SAN DIEGO - Aprox. C/ Palos de la Frontera
+                                    [fullAddress] => GLORIETA SAN DIEGO - Aprox. C/ Palos de la Frontera  
+                                    [lat] => 37.37896144135567
+                                    [lng] => -5.989966195594725
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [198] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 188_AVENIDA HYTASA
+                                    [number] => 188
+                                    [address] => AVENIDA HYTASA - Aprox. C/ Romeral
+                                    [fullAddress] => AVENIDA HYTASA - Aprox. C/ Romeral  
+                                    [lat] => 37.37256042361221
+                                    [lng] => -5.963362098447178
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [199] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 189_AVENIDA HYTASA
+                                    [number] => 189
+                                    [address] => AVENIDA HYTASA - Aprox. Nuestra Señora de los Dolores
+                                    [fullAddress] => AVENIDA HYTASA - Aprox. Nuestra Señora de los Dolores  
+                                    [lat] => 37.37005341642907
+                                    [lng] => -5.959496083704879
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [200] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 123_ESTADIO OLIMPICO
+                                    [number] => 123
+                                    [address] => ESTADIO OLIMPICO
+                                    [fullAddress] => ESTADIO OLIMPICO  
+                                    [lat] => 37.415850580063804
+                                    [lng] => -6.005474271334001
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [201] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 206_AVENIDA KANSAS CITY
+                                    [number] => 206
+                                    [address] => AVENIDA KANSAS CITY - Aprox. C/ Macedonia
+                                    [fullAddress] => AVENIDA KANSAS CITY - Aprox. C/ Macedonia  
+                                    [lat] => 37.402963548427635
+                                    [lng] => -5.958211097806437
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [202] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 190_AVENIDA HYTASA
+                                    [number] => 190
+                                    [address] => AVENIDA HYTASA - Aprox. C/ Herramienta
+                                    [fullAddress] => AVENIDA HYTASA - Aprox. C/ Herramienta  
+                                    [lat] => 37.36873540997663
+                                    [lng] => -5.957293074803896
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [203] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 204_CALLE DOCTOR LAFFON
+                                    [number] => 204
+                                    [address] => CALLE DOCTOR LAFFON - Aprox. C/ Tesalonica
+                                    [fullAddress] => CALLE DOCTOR LAFFON - Aprox. C/ Tesalonica  
+                                    [lat] => 37.39768969188426
+                                    [lng] => -5.96160136486722
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [204] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 211_AVENIDA DE ALEMANIA
+                                    [number] => 211
+                                    [address] => AVENIDA DE ALEMANIA - Aprox. Glorieta de Letonia
+                                    [fullAddress] => AVENIDA DE ALEMANIA - Aprox. Glorieta de Letonia  
+                                    [lat] => 37.34620231070945
+                                    [lng] => -5.976200128537064
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [205] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 212_AVENIDA REINIDO UNIDO
+                                    [number] => 212
+                                    [address] => AVENIDA REINIDO UNIDO - Aprox. Avda de Italia
+                                    [fullAddress] => AVENIDA REINIDO UNIDO - Aprox. Avda de Italia  
+                                    [lat] => 37.35158233769135
+                                    [lng] => -5.977784137525409
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [206] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 210_PASEO DE EUROPA
+                                    [number] => 210
+                                    [address] => PASEO DE EUROPA - Aprox. Ava de Francia
+                                    [fullAddress] => PASEO DE EUROPA - Aprox. Ava de Francia  
+                                    [lat] => 37.348061320332235
+                                    [lng] => -5.980058142587488
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [207] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 214_AVENIDA DE ANDALUCIA
+                                    [number] => 214
+                                    [address] => AVENIDA DE ANDALUCIA - Aprox. Entrada TUSSAM
+                                    [fullAddress] => AVENIDA DE ANDALUCIA - Aprox. Entrada TUSSAM  
+                                    [lat] => 37.387143486904044
+                                    [lng] => -5.948410054553437
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [208] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 215_CALLE ZORZAL
+                                    [number] => 215
+                                    [address] => CALLE ZORZAL - Aprox. Avenida de Andalucia
+                                    [fullAddress] => CALLE ZORZAL - Aprox. Avenida de Andalucia  
+                                    [lat] => 37.38664148025849
+                                    [lng] => -5.953981074150936
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [209] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 209_AVENIDA ALEMANIA
+                                    [number] => 209
+                                    [address] => AVENIDA ALEMANIA - Aprox. Glorieta Chekia
+                                    [fullAddress] => AVENIDA ALEMANIA - Aprox. Glorieta Chekia  
+                                    [lat] => 37.34531731164308
+                                    [lng] => -5.982656150368391
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [210] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 221_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 221
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Hotel Sevilla Congresos
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Hotel Sevilla Congresos  
+                                    [lat] => 37.40560856297865
+                                    [lng] => -5.930524002164018
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [211] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 217_CALLE DE LA A.D.A.
+                                    [number] => 217
+                                    [address] => CALLE DE LA A.D.A. - Aprox. C/ Jerusalén
+                                    [fullAddress] => CALLE DE LA A.D.A. - Aprox. C/ Jerusalén  
+                                    [lat] => 37.393874505420214
+                                    [lng] => -5.962371106824864
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [212] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 216_CALLE ANTIOQUIA
+                                    [number] => 216
+                                    [address] => CALLE ANTIOQUIA - Aprox. Avda de Pedro Romero
+                                    [fullAddress] => CALLE ANTIOQUIA - Aprox. Avda de Pedro Romero  
+                                    [lat] => 37.39993753083735
+                                    [lng] => -5.95628508908707
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [213] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 220_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 220
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Centro Comercial Zona Este
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Centro Comercial Zona Este  
+                                    [lat] => 37.40518956185269
+                                    [lng] => -5.935780020616404
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [214] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 225_CALLE FLOR DE RETAMA
+                                    [number] => 225
+                                    [address] => CALLE FLOR DE RETAMA - Aprox. Centro Deportivo Entreflores
+                                    [fullAddress] => CALLE FLOR DE RETAMA - Aprox. Centro Deportivo Entreflores  
+                                    [lat] => 37.397390540237105
+                                    [lng] => -5.918776956284244
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [215] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 226_AVENIDA DOCTOR EMILIO LEMOS
+                                    [number] => 226
+                                    [address] => AVENIDA DOCTOR EMILIO LEMOS - Aprox. C/ de Birmania
+                                    [fullAddress] => AVENIDA DOCTOR EMILIO LEMOS - Aprox. C/ de Birmania  
+                                    [lat] => 37.40286287174529
+                                    [lng] => -5.921753676327738
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [216] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 224_AVENIDA DE LAS CIENCIAS
+                                    [number] => 224
+                                    [address] => AVENIDA DE LAS CIENCIAS - Aprox. C/ de Ulises
+                                    [fullAddress] => AVENIDA DE LAS CIENCIAS - Aprox. C/ de Ulises  
+                                    [lat] => 37.397013539467245
+                                    [lng] => -5.923756974136509
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [217] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 227_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 227
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. C/ Carlinga
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. C/ Carlinga  
+                                    [lat] => 37.39075351415996
+                                    [lng] => -5.91963595581283
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [218] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 233_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 233
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Estación de RENFE
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Estación de RENFE  
+                                    [lat] => 37.404112556103925
+                                    [lng] => -5.937092024971125
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [219] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 230_AVENIDA DE LAS CIENCIAS
+                                    [number] => 230
+                                    [address] => AVENIDA DE LAS CIENCIAS - Aprox. Avda de la Republica China
+                                    [fullAddress] => AVENIDA DE LAS CIENCIAS - Aprox. Avda de la Republica China  
+                                    [lat] => 37.403927559446025
+                                    [lng] => -5.928139993197263
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [220] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 229_AVENIDA AERONAUTICA
+                                    [number] => 229
+                                    [address] => AVENIDA AERONAUTICA - Aprox. Avda del Deporte
+                                    [fullAddress] => AVENIDA AERONAUTICA - Aprox. Avda del Deporte  
+                                    [lat] => 37.38735449491008
+                                    [lng] => -5.919918954593122
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [221] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 228_AVENIDA DE LAS CIENCIAS
+                                    [number] => 228
+                                    [address] => AVENIDA DE LAS CIENCIAS - Aprox. C/ Flor de Salvia
+                                    [fullAddress] => AVENIDA DE LAS CIENCIAS - Aprox. C/ Flor de Salvia  
+                                    [lat] => 37.39444952378535
+                                    [lng] => -5.921230963560515
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [222] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 232_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 232
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Pza de la Acogida
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Pza de la Acogida  
+                                    [lat] => 37.40393955876748
+                                    [lng] => -5.939739033438785
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [223] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 234_CALLE MÉDICOS SIN FRONTERA
+                                    [number] => 234
+                                    [address] => CALLE MÉDICOS SIN FRONTERA - Aprox. Avda de las Ciencias
+                                    [fullAddress] => CALLE MÉDICOS SIN FRONTERA - Aprox. Avda de las Ciencias  
+                                    [lat] => 37.3999401269442
+                                    [lng] => -5.925163964339344
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [224] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 237_CIUDAD DE CHIVA
+                                    [number] => 237
+                                    [address] => CIUDAD DE CHIVA - Aprox. C/ Ildefonso Marañon
+                                    [fullAddress] => CIUDAD DE CHIVA - Aprox. C/ Ildefonso Marañon  
+                                    [lat] => 37.409334585727706
+                                    [lng] => -5.923254979770833
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [225] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 235_CIUDAD DE CHIVA
+                                    [number] => 235
+                                    [address] => CIUDAD DE CHIVA - Aprox. C/ ciudad de Alfajar
+                                    [fullAddress] => CIUDAD DE CHIVA - Aprox. C/ ciudad de Alfajar  
+                                    [lat] => 37.411735810991
+                                    [lng] => -5.929859071297002
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [226] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 231_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 231
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Paseo Miguel de Unamuno
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Paseo Miguel de Unamuno  
+                                    [lat] => 37.401673546456635
+                                    [lng] => -5.942139041014662
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [227] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 238_CIUDAD DE CHIVA
+                                    [number] => 238
+                                    [address] => CIUDAD DE CHIVA - Aprox. Pza del Árbol Rey
+                                    [fullAddress] => CIUDAD DE CHIVA - Aprox. Pza del Árbol Rey  
+                                    [lat] => 37.408132573830756
+                                    [lng] => -5.919993048486191
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [228] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 236_CIUDAD DE CHIVA
+                                    [number] => 236
+                                    [address] => CIUDAD DE CHIVA - Aprox. C/ ciudad de Liria
+                                    [fullAddress] => CIUDAD DE CHIVA - Aprox. C/ ciudad de Liria  
+                                    [lat] => 37.4102171143178
+                                    [lng] => -5.926422374057527
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [229] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 239_CALLE CIUDAD DE LIRIA
+                                    [number] => 239
+                                    [address] => CALLE CIUDAD DE LIRIA - Aprox. Avda de Fernando
+                                    [fullAddress] => CALLE CIUDAD DE LIRIA - Aprox. Avda de Fernando  
+                                    [lat] => 37.4086915827457
+                                    [lng] => -5.927718994548674
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [230] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 240_AVENIDA ALCALDE LUIS URUÑUELA
+                                    [number] => 240
+                                    [address] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Cueva de la Pileta
+                                    [fullAddress] => AVENIDA ALCALDE LUIS URUÑUELA - Aprox. Cueva de la Pileta  
+                                    [lat] => 37.40257954448899
+                                    [lng] => -5.940435585086025
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [231] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 243_GLORIETA DEL PRIMERO DE MAYO
+                                    [number] => 243
+                                    [address] => GLORIETA DEL PRIMERO DE MAYO - Aprox. C/ Carlos Marx
+                                    [fullAddress] => GLORIETA DEL PRIMERO DE MAYO - Aprox. C/ Carlos Marx  
+                                    [lat] => 37.38043948116999
+                                    [lng] => -5.953481197462845
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [232] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 245_CALLE LAS LEANDRAS
+                                    [number] => 245
+                                    [address] => Aprox. Avda Los Gavilanes
+                                    [fullAddress] => Aprox. Avda Los Gavilanes  
+                                    [lat] => 37.37539881124939
+                                    [lng] => -5.952549466245021
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [233] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 244_AVENIDA LOS GAVILANES
+                                    [number] => 244
+                                    [address] => AVENIDA LOS GAVILANES - Aprox. Avda Juan XXIII
+                                    [fullAddress] => AVENIDA LOS GAVILANES - Aprox. Avda Juan XXIII  
+                                    [lat] => 37.37804002904668
+                                    [lng] => -5.951783685629835
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [234] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 223_CALLE GEMA
+                                    [number] => 223
+                                    [address] => CALLE GEMA - Aprox. Avda de las Ciencias
+                                    [fullAddress] => CALLE GEMA - Aprox. Avda de las Ciencias  
+                                    [lat] => 37.40073135956411
+                                    [lng] => -5.92632420198497
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [235] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 246_PUERTO DE LOS AZORES
+                                    [number] => 246
+                                    [address] => PUERTO DE LOS AZORES - Aprox. C/ Paulo Orosio
+                                    [fullAddress] => PUERTO DE LOS AZORES - Aprox. C/ Paulo Orosio  
+                                    [lat] => 37.376139062455664
+                                    [lng] => -5.955017317014327
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [236] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 037_ALAMEDA DE HÉRCULES
+                                    [number] => 37
+                                    [address] => ALAMEDA DE HÉRCULES - Aprox. C/ Vulcano
+                                    [fullAddress] => ALAMEDA DE HÉRCULES - Aprox. C/ Vulcano  
+                                    [lat] => 37.398785772824745
+                                    [lng] => -5.99318901314001
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [237] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 241_PLAZA NUEVA
+                                    [number] => 241
+                                    [address] => PLAZA NUEVA - Aprox. C/ Mendez Núñez
+                                    [fullAddress] => PLAZA NUEVA - Aprox. C/ Mendez Núñez  
+                                    [lat] => 37.38881544328257
+                                    [lng] => -5.995863788052556
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [238] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 242_PLAZA NUEVA
+                                    [number] => 242
+                                    [address] => PLAZA NUEVA - Aprox. C/ Mendez Núñez
+                                    [fullAddress] => PLAZA NUEVA - Aprox. C/ Mendez Núñez  
+                                    [lat] => 37.38881830392981
+                                    [lng] => -5.995750976296489
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [239] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 248_GLORIETA DE LOS FERROVIARIOS
+                                    [number] => 248
+                                    [address] => GLORIETA DE LOS FERROVIARIOS - Aprox. C/ Navarra
+                                    [fullAddress] => GLORIETA DE LOS FERROVIARIOS - Aprox. C/ Navarra  
+                                    [lat] => 37.42190302369394
+                                    [lng] => -5.983004288085699
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [240] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 250_CALLE DE SALVADOR ALLENDE
+                                    [number] => 250
+                                    [address] => CALLE DE SALVADOR ALLENDE - Aprox. C/ de Marruecos
+                                    [fullAddress] => CALLE DE SALVADOR ALLENDE - Aprox. C/ de Marruecos  
+                                    [lat] => 37.421825611632634
+                                    [lng] => -5.985617204969087
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [241] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 249_CALLE NAVARRA
+                                    [number] => 249
+                                    [address] => CALLE NAVARRA - Aprox. C/ Cataluña
+                                    [fullAddress] => CALLE NAVARRA - Aprox. C/ Cataluña  
+                                    [lat] => 37.42475843174024
+                                    [lng] => -5.984823673360926
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                    [242] => SimpleXMLElement Object
+                        (
+                            [@attributes] => Array
+                                (
+                                    [name] => 218_PLAZA DEL ALTOZANO
+                                    [number] => 218
+                                    [address] => PLAZA DEL ALTOZANO - Aprox. C/ San Jorge
+                                    [fullAddress] => PLAZA DEL ALTOZANO - Aprox. C/ San Jorge  
+                                    [lat] => 37.38512441847878
+                                    [lng] => -6.003542147441712
+                                    [open] => 1
+                                    [bonus] => 0
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [arrondissements] => SimpleXMLElement Object
+        (
+            [arrondissement] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [number] => 0
+                            [minLat] => 37.34531731164308
+                            [minLng] => -6.012005274166835
+                            [maxLat] => 37.42475843174024
+                            [maxLng] => -5.918776956284244
+                        )
+
+                )
+
+        )
+
+)

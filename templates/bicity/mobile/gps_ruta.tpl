@@ -46,9 +46,9 @@ Rutas en bicicleta por la ciudad y ahorro de combustible
 	<p class="gris"><strong>Emisiones ahorradas: </strong>{{data.consumos.emisiones}} gr CO2</p>
 	<table>
 	<tr style="font-weight:bold;"><td>Combustible </td><td>Dinero Gastado </td></tr>
-	<tr><td>Sin Plomo 95: </td><td>{{data.consumos.sp95.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
-	<tr><td>Sin Plomo 98: </td><td>{{data.consumos.sp98.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
-	<tr><td>Diesel: </td><td>{{data.consumos.diesel.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
+	<tr><td>Sin Plomo 95: </td><td>{{data.consumos.consumo.sp95.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
+	<tr><td>Sin Plomo 98: </td><td>{{data.consumos.consumo.sp98.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
+	<tr><td>Diesel: </td><td>{{data.consumos.consumo.diesel.euros}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
 	</table>
 	<p class="gris">Precios calculados para un coche estandar. ¿Quieres ver un modelo concreto de vehiculo? <a href="{{page.url_root}}/vehiculo/">Pulsa aquí</a></p>
 	<p class="gris"><a href="{{page.url_root}}/faq/">¿Cómo se calculan estos precios?</a></p>

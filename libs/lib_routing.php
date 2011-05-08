@@ -48,8 +48,32 @@ class Routing
 					$context['page'] = 'test';					
 				break;
 				
-				case 'buscar':
+				case 'buscador':
+					$context['page'] = 'buscador';	
+				break;
+				
+				case 'search':
 					$context['page'] = 'search';	
+				break;
+				
+				case 'faq':
+					$context['page'] = 'faq';	
+				break;
+				
+				case 'contacto':
+					$context['page'] = 'contacto';	
+				break;
+				
+				case 'geo':
+					$context['page'] = 'geo';	
+				break;
+				
+				case 'gps':
+					$context['page'] = 'gps';	
+				break;
+				
+				case 'vehiculo':
+					$context['page'] = 'vehiculo';	
 				break;
 				
 				default:

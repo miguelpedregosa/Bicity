@@ -30,17 +30,17 @@
 	<label for="name">Hasta:</label>
     <input type="text" name="name" id="name" value=""  />
 </div>
-<a href="" data-role="button" data-icon="search">Buscar</a>
+<input type="submit" value="Buscar" data-role="button" data-icon="search" />
 	</div>
 	<h2>Estaciones Cercanas</h2>
-	<div id="desde-hasta" class="ui-body ui-corner-all">
+	<div id="desde-hasta" onclick="window.location = 'http://tubus.es'" style="cursor:pointer;" class="ui-body ui-corner-all">
 	<div class="ui-grid-b">
 	<div class="ui-block-a"><span class="small">A 300 m (Aprox)</span><br/><strong class="big">395</strong></div>
 	<div class="ui-block-b"><img src="images/bici.png" class="float-l-icon" /><span class="txt-b">7<span></div>
 	<div class="ui-block-c"><img src="images/ancla.png" class="float-l-icon" /><span class="txt-b">4<span></div>
 </div><!-- /grid-a -->
 	</div>
-	<div id="desde-hasta" class="ui-body ui-corner-all">
+	<div id="desde-hasta" onclick="window.location = 'http://tubus.es'" style="cursor:pointer;" class="ui-body ui-corner-all">
 	<div class="ui-grid-b">
 	<div class="ui-block-a"><span class="small">A 300 m (Aprox)</span><br/><strong class="big">395</strong></div>
 	<div class="ui-block-b"><img src="images/bici.png" class="float-l" /><span class="txt-b">7<span></div>
@@ -53,7 +53,7 @@
 	<div id="footer" data-role="footer" data-position="fixed" data-theme="a">
 	<div data-role="navbar">
 		<ul>
-			<li><a href="a.html" class="ui-btn-active" data-icon="search"  data-iconpos="top">Buscar</a></li>
+			<li><a href="buscador.html" data-rel="dialog" class="ui-btn-active" data-icon="search"  data-iconpos="top">Buscar</a></li>
 			<li><a href="b.html" data-icon="alert">Geo</a></li>
 			<li><a href="a.html" data-icon="info">Info</a></li>
 			<li><a href="b.html" data-icon="gear">Contacto</a></li>

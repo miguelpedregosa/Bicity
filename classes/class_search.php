@@ -27,10 +27,10 @@ class Search
 		global $mongo_db;
 		$estaciones = $mongo_db->estaciones;
 		if($order == null)
-			$this->_results = $estaciones->find(array(), array('number', 'city'));
+			$this->_results = $estaciones->find(array('open' => true), array('number', 'city'));
 		else
 		{
-			$this->_results = $estaciones->find(array(), array('number', 'city'));
+			$this->_results = $estaciones->find(array('open' => true), array('number', 'city'));
 			$this->_results->sort($order)->limit($limit);
 		}
 		return $this->_results;
@@ -41,7 +41,7 @@ class Search
 		global $mongo_db;
 		$estaciones = $mongo_db->estaciones;
 		$distancias = array();
-		$resultados=$estaciones->find(array(), array('number', 'city', 'latitud', 'longitud'));
+		$resultados=$estaciones->find(array('open' => true), array('number', 'city', 'latitud', 'longitud'));
 		$resultados->sort(array('number' =>1));
 		
 		foreach($resultados as $resultado)
@@ -77,6 +77,106 @@ class Search
 		
 	}
 	
+	public function cercanas_con_bicis($lat, $long, $max_distancia = null, $limit = null)
+	{
+		global $mongo_db;
+		$estaciones = $mongo_db->estaciones;
+		$distancias = array();
+		$resultados=$estaciones->find(array('open' => true), array('number', 'city', 'latitud', 'longitud'));
+		$resultados->sort(array('number' =>1));
+		
+		foreach($resultados as $resultado)
+		{
+			$distancia['number']=$resultado['number'];
+			$distancia['city']=$resultado['city'];
+			$distancia['distancia']=Geo::distancia_haversin($lat,$resultado['latitud'], $long, $resultado['longitud']);
+			
+			//Miro a ver si esta estación tiene bicicletas
+			//$miestacion = $estaciones->findOne(array('city' => $resultado['city'], 'number')    );
+			
+			$esta = new Station($resultado['city'], $resultado['number'] );
+			if($esta->has_bicis() )
+			{
+			
+			if($max_distancia != null)
+			{
+				if($distancia['distancia']<=$max_distancia)
+				{
+					$distancias[]=$distancia;
+				}
+			}
+			else
+			{
+				$distancias[]=$distancia;
+			}
+			
+			}
+			//Fin de mirar los anclajes
+			
+		}
+		$ordenado= Geo::ordenar_vector_distancias($distancias);
+		if($limit != null && $limit<= count($ordenado))
+		{
+			$ordenado_nuevo= array();
+			for($i=0;$i<$limit;$i++)
+			{
+				$ordenado_nuevo[]=$ordenado[$i];
+			}
+			
+			return $ordenado_nuevo;
+		
+		}else{return $ordenado;}
+		
+		
+	}
 	
+	public function cercanas_con_anclajes($lat, $long, $max_distancia = null, $limit = null)
+	{
+		global $mongo_db;
+		$estaciones = $mongo_db->estaciones;
+		$distancias = array();
+		$resultados=$estaciones->find(array('open' => true), array('number', 'city', 'latitud', 'longitud'));
+		$resultados->sort(array('number' =>1));
+		
+		foreach($resultados as $resultado)
+		{
+			$distancia['number']=$resultado['number'];
+			$distancia['city']=$resultado['city'];
+			$distancia['distancia']=Geo::distancia_haversin($lat,$resultado['latitud'], $long, $resultado['longitud']);
+			
+			//Miro a ver si esta estación tiene anclajes
+			$esta = new Station($resultado['city'], $resultado['number'] );
+			if($esta->has_anclajes() )
+			{
+				
+			if($max_distancia != null)
+			{
+				if($distancia['distancia']<=$max_distancia)
+				{
+					$distancias[]=$distancia;
+				}
+			}
+			else
+			{
+				$distancias[]=$distancia;
+			}
+		
+			}
+			//Fin de mirar los anclajes
+		
+		}
+		$ordenado= Geo::ordenar_vector_distancias($distancias);
+		if($limit != null && $limit<= count($ordenado))
+		{
+			$ordenado_nuevo= array();
+			for($i=0;$i<$limit;$i++)
+			{
+				$ordenado_nuevo[]=$ordenado[$i];
+			}
+			
+			return $ordenado_nuevo;
+		
+		}else{return $ordenado;}
+	}
 	
 }

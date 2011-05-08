@@ -39,9 +39,9 @@
 	 $temperatura_minima = null;
 	 $viento = null;
 
-	 $patron = '/<td class="borde_rb"\s?(colspan="2")?><img src="\/imagenes\/gif\/estado_cielo\/[[:digit:]]+\.gif" title="[\w\s]+" alt="[\w\s]+" \/><\/td>/';
+	 $patron = '/<td class="borde_r?b"\s?(colspan="2")?><img src="\/imagenes\/gif\/estado_cielo\/[[:digit:]]+\.gif" title="[\w\s]+" alt="[\w\s]+" \/><\/td>/';
 	 if(preg_match_all($patron,$data,$cadena)){
-		 $cielo = preg_replace('/<td class="borde_rb"\s?(colspan="2")?><img src="/','',$cadena[0][0]);
+		 $cielo = preg_replace('/<td class="borde_r?b"\s?(colspan="2")?><img src="/','',$cadena[0][0]);
 		 $cielo = trim(preg_replace('/" title="[\w\s]+" alt="[\w\s]+" \/><\/td>/','',$cielo));
 		 $cielo = 'http://www.aemet.es'.$cielo;
 		 $sky_code = str_replace('http://www.aemet.es/imagenes/gif/estado_cielo/','',$cielo);
@@ -63,7 +63,7 @@
 		 $temperatura_minima=(addslashes(ucfirst(trim(strip_tags(str_replace('&nbsp;','',$cadena[0][0]))))));
 	 }
 	 
-	 $patron = '/<td colspan="2" class="borde_rb">[[:digit:]]+\&nbsp\;<\/td>/';
+	 $patron = '/<td (colspan="2")?\s?class="borde_r?b">[[:digit:]]+\&nbsp\;<\/td>/';
 	 if(preg_match_all($patron,$data,$cadena)){
 		 $viento=(addslashes(ucfirst(trim(strip_tags(str_replace('&nbsp;','',$cadena[0][0]))))));
 	 }
@@ -72,9 +72,9 @@
 	 $meteo['cielo']=$cielo;
 	 $meteo['sky_code']=$sky_code;
 	 $meteo['precipitaciones']=$precipitaciones;
-	 $meteo['temperatura_maxima']=$temperatura_maxima.'ºC';
-	 $meteo['temperatura_minima']=$temperatura_minima.'ºC';
-	 $meteo['viento']=$viento.'Km/h';
+	 $meteo['temperatura_maxima']=$temperatura_maxima;
+	 $meteo['temperatura_minima']=$temperatura_minima;
+	 $meteo['viento']=$viento;
 	 $meteo['city'] = Text::slug('Sevilla');
 	 
 	 $cursor = $bicity->findOne(array('date' => $meteo['date']));

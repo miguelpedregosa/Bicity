@@ -17,7 +17,6 @@ class HomePage
 {
 	function index($params=null)
 	{
-		$exit = array('probando' => 'OK');
-		return $exit;
+		return true;
 	}
 }

@@ -26,7 +26,8 @@ $configuracion['mongo_store'] = 'bicity';
 $configuracion['analytics_id'] = 'UA-23187702-1';
 
 $configuracion['app_name'] = 'Bicity';
-$configuracion['consumo_medio'] = 8.57348645; //Litros a los 100 km en ciudad
+$configuracion['admin_email'] = 'info@bicity.info';
+//$configuracion['consumo_medio'] = 8.57348645; 
 
 
 $configuracion['template'] = 'bicity';

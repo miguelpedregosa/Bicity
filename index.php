@@ -24,7 +24,6 @@ $SERVER = Input::_SERVER();
 
 //Vamos a parsear la url para ver que page tengo que cargar y con que parametros
 $url = Routing::URI_route($SERVER);
-krumo($url);
 
 //Si es una ciudad tengo que comprobar que existe en la base de datos antes de seguir
 if($url['ciudad'] == true)
@@ -102,10 +101,19 @@ else
 }
 
 
-krumo($page);
-krumo($function);
-
+//krumo($page);
+//krumo($function);
+//die;
 
 //Por último cargo la plantilla correspondiente con dichos datos y la renderizo
 $page = new Template($page,$function, $datos);
+//Cargo los datos del tiempo para Sevilla de momento
+$ciudad = new City("Sevilla");
+$tiempo = $ciudad->getMeteo();
+$weather = array();
+$weather['tiempo_maxima'] = $tiempo['temperatura_maxima'];
+$weather['tiempo_minima'] = $tiempo['temperatura_minima'];
+$weather['tiempo_imagen'] = $tiempo['sky_code'];
+$page->set_data($weather, 'data');		
+//El último paso es renderizar la plantilla al navegador		
 $page->render_template();

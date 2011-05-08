@@ -174,7 +174,7 @@
 	border: 1px solid 		#C6C6C6;
 	background: 			#cccccc;
 	color: 					#333333;
-	text-shadow: 0 1px 0 	#fff;
+	/*text-shadow: 0 1px 0 	#fff;*/
 	font-weight: normal;
 	background-image: -moz-linear-gradient(top, 
 							#e6e6e6, 
@@ -285,14 +285,14 @@
 	border: 1px solid 		#B3B3B3;
 	color: 					#333333;
 	text-shadow: 0 1px 0 	#fff;
-	background: 			#f0f0f0;
-	background-image: -moz-linear-gradient(top, 
+	/*background: 			#f0f0f0;
+	/*background-image: -moz-linear-gradient(top, 
 							#eeeeee, 
 							#dddddd);
 	background-image: -webkit-gradient(linear,left top,left bottom,
 		color-stop(0, 		#eeeeee),
 		color-stop(1, 		#dddddd));
-	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#dddddd')";
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#eeeeee', EndColorStr='#dddddd')";*/
 }
 .ui-body-c,
 .ui-body-c input,
@@ -721,7 +721,7 @@ a.ui-link-inherit {
 .ui-icon {
 	background: 						#666;
 	background: 						rgba(0,0,0,.4);
-	background-image: url(images/icons-18-white.png);
+	background-image: url(../images/icons-18-white.png);
 	background-repeat: no-repeat;
 	-moz-border-radius: 				9px;
 	-webkit-border-radius: 				9px;
@@ -735,7 +735,7 @@ a.ui-link-inherit {
 .ui-icon-alt {
 	background: 						#fff;
 	background: 						rgba(255,255,255,.3);
-	background-image: url(images/icons-18-black.png);
+	background-image: url(../images/icons-18-black.png);
 	background-repeat: no-repeat;
 }
 
@@ -751,14 +751,14 @@ a.ui-link-inherit {
 	.ui-icon-gear, .ui-icon-refresh, .ui-icon-forward, .ui-icon-back,
 	.ui-icon-grid, .ui-icon-star, .ui-icon-alert, .ui-icon-info, .ui-icon-home, .ui-icon-search, 
 	.ui-icon-checkbox-off, .ui-icon-checkbox-on, .ui-icon-radio-off, .ui-icon-radio-on {
-		background-image: url(images/icons-36-white.png);
+		background-image: url(../images/icons-36-white.png);
 		-moz-background-size: 776px 18px;
 		-o-background-size: 776px 18px;
 		-webkit-background-size: 776px 18px;
 		background-size: 776px 18px;
 	}
 	.ui-icon-alt {
-		background-image: url(images/icons-36-black.png);
+		background-image: url(../images/icons-36-black.png);
 	}
 }
 
@@ -854,7 +854,7 @@ a.ui-link-inherit {
 
 /* loading icon */
 .ui-icon-loading {
-	background-image: url(images/ajax-loader.png);
+	background-image: url(../images/ajax-loader.png);
 	width: 40px;
 	height: 40px;
 	-moz-border-radius: 20px;

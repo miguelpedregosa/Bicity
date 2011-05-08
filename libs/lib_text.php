@@ -23,5 +23,20 @@ class Text{
 		return $cadena;
 	}
 	
+	public static function href($text, $path, $options = array()){
+		global $configuracion;
+		$enlace = '<a href="'.$configuracion['http_root'].'/'.$path.'"';		
+		
+		if(isset($options['attributes'])){
+			foreach($options['attributes'] as $key => $value){
+				$enlace .= ' '.$key.'="'.$value.'"';
+			}
+		}
+				
+		$enlace.='>'.$text.'</a>';
+		
+		return $enlace;
+	}
+	
 }
 

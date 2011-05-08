@@ -17,11 +17,25 @@ class EstacionPage
 {
 	function index($estacion = null)
 	{
+		global $url;
+		$ciudad = $url['page'];
+		$estacion = new Station($ciudad, $estacion);
+		$datos = $estacion->to_array();
+		$estacion_var = array();
+		if($datos['name'] == null)
+		{
+			$error_page = URL_ROOT.'/error/404/';
+			header('Location: '.$error_page);
+			exit();
+		}
+		$estacion_var['info'] = $datos;
+		$posicion = $estacion->getPosition();
+		$estacion_var['location'] = $posicion->to_array();
+		$estacion_var['bicicletas'] = $estacion->getStationInfo();	
 		
+		//krumo($estacion_var);
+		//die;
+		return $estacion_var;	
 	}
 	
-	function mapa($param1 = null)
-	{
-		
-	}
 }

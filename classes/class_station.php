@@ -24,6 +24,8 @@ class Station
 	protected $open;
 	protected $bonus;
 	protected $city;
+	protected $latitud;
+	protected $longitud;
 	
 	/*Constructor de la estación de bicicletas
 	 * $param puede ser un id o un número de estación
@@ -57,6 +59,8 @@ class Station
 			$this->bonus = ($cursor['bonus']);
 			$this->posicion = new Position(array('latitud' => ($cursor['latitud']), 'longitud'=> ($cursor['longitud'])));
 			$this->city = Text::slug($ciudad);
+			$this->latitud = $cursor['latitud'];
+			$this->longitud = $cursor['longitud'];
 		}
 	}
 	
@@ -70,7 +74,9 @@ class Station
 		'posicion'=>$this->posicion,
 		'open'=>$this->open,
 		'bonus'=>$this->bonus,
-		'city'=>$this->city
+		'city'=>$this->city,
+		'latitud'=>$this->latitud,
+		'longitud'=>$this->longitud
 		);
 		return $estacion;
 	}
@@ -117,19 +123,129 @@ class Station
 	
 	public function getStationInfo()
 	{
-		$ch = curl_init("http://www.sevici.es/service/stationdetails/".$this->number);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_HEADER, 0);
-		$data = curl_exec($ch);
-		curl_close($ch);
-		//parseo los datos con SimpleXml
-		$doc = new SimpleXmlElement($data, LIBXML_NOCDATA);
-		$info_estacion = array(
-			'available'=>intval((string)$doc->available),
-			'free'=>intval((string)$doc->free),
-			'total'=>intval((string)$doc->total),
-			'ticket'=>((string)$doc->ticket == '1' ? true : false)
-		);
-		return $info_estacion;
+		global $mongo_db;
+		$bicity = $mongo_db->estaciones;
+		$info_estacion=null;
+		
+		//me traigo la info de la base de datos antes de leer desde sevici.
+		$cursor = $bicity->findOne(array('number' => $this->number, 'city' => Text::slug($this->city)));
+		if($cursor != null){
+			$toma = intval($cursor['timestamp']);
+			$ahora = time();
+			//krumo("Leo de BD ".intval(($ahora-$toma)/60));
+			if(intval(($ahora-$toma)/60)<15){
+				$info_estacion = array(
+					'available'=>$cursor['available'],
+					'free'=>$cursor['free'],
+					'total'=>$cursor['free'],
+					'ticket'=>$cursor['ticket']
+				);
+				return $info_estacion;
+			}
+			else{		
+				//krumo("Pa bajo por tiempo");
+				$ch = curl_init("http://www.sevici.es/service/stationdetails/".$this->number);
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+				curl_setopt($ch, CURLOPT_HEADER, 0);
+				$data = curl_exec($ch);
+				$error = curl_error($ch);
+				curl_close($ch);
+				
+				$doc = new SimpleXmlElement($data, LIBXML_NOCDATA);
+				$info_estacion = array(
+					'available'=>intval((string)$doc->available),
+					'free'=>intval((string)$doc->free),
+					'total'=>intval((string)$doc->total),
+					'ticket'=>intval((string)$doc->ticket),
+					'timestamp' => time()
+				);
+				$newdata = array('$set' => $info_estacion);
+				$bicity->update(array('number' => $this->number), $newdata);
+				return $info_estacion;
+			}			
+		}else{		
+			//krumo("Pa bajo por falta");
+			$ch = curl_init("http://www.sevici.es/service/stationdetails/".$this->number);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+			curl_setopt($ch, CURLOPT_HEADER, 0);
+			$data = curl_exec($ch);
+			$error = curl_error($ch);
+			curl_close($ch);
+			
+			$doc = new SimpleXmlElement($data, LIBXML_NOCDATA);
+			$info_estacion = array(
+				'available'=>intval((string)$doc->available),
+				'free'=>intval((string)$doc->free),
+				'total'=>intval((string)$doc->total),
+				'ticket'=>intval((string)$doc->ticket),
+				'timestamp' => time()
+			);
+			$newdata = array('$set' => $info_estacion);
+			$bicity->update(array('number' => $this->number), $newdata);
+			return $info_estacion;
+		}
+	}
+	
+	public function bornetasAvailable(){
+		global $mongo_db;
+		$bicity = $mongo_db->estaciones;
+		
+		$cursor = $bicity->findOne(array('number' => $this->getNumber()));
+		if($cursor != null){
+			$toma = intval($cursor['timestamp']);
+			$ahora = time();
+			if(intval(($ahora-$toma)/60)<45){
+				return ($cursor['free'] > 0 ? true : false );
+			}
+			else return true;
+		}
+		else{
+			$estacion = $this->getStationInfo();
+			return ($estacion['free'] > 0 ? true : false );
+		}
+	}
+	
+	public function bikesAvailable(){
+		global $mongo_db;
+		$bicity = $mongo_db->estaciones;
+		
+		$cursor = $bicity->findOne(array('number' => $this->getNumber()));
+		if($cursor != null){
+			$toma = intval($cursor['timestamp']);
+			$ahora = time();
+			if(intval(($ahora-$toma)/60)<45){
+				return ($cursor['available'] > 0 ? true : false );
+			}
+			else return true;
+		}
+		else{
+			$estacion = $this->getStationInfo();
+			return ($estacion['free'] > 0 ? true : false );
+		}
+	}
+	
+	public function has_anclajes()
+	{
+		return $this->bornetasAvailable();
+	}
+	public function has_bicis()
+	{
+		return $this->bikesAvailable();
+	}
+	
+	public function getLink($options = array()){
+		$text = utf8_decode('Estación ').$this->getName();
+		$path = $this->getCity().'/estacion/'.$this->getNumber().'/'.Text::slug($this->getName());
+		if($this->getName()==null) $path = '#';
+		return (Text::href($text, $path, $options));
+	}
+	
+	public function getHref(){
+		//Ciudad/estacion/numero/slugnombreparada
+		global $configuracion;
+		if($this->getName()==null) return '#';
+		
+		$path = $configuracion['http_root'].'/'.$this->getCity().'/estacion/'.$this->getNumber().'/'.Text::slug($this->getName());
+		return $path;
 	}
 }

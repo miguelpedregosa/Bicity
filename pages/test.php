@@ -36,4 +36,22 @@ class TestPage
 		
 	}
 	
+	function url(){
+		$options = array('attributes' =>
+            array(
+                'class' => 'frontpage-link',
+                'title' => 'Home',
+            )
+        );
+        $estacion = new Station('Sevilla',206);
+        krumo($estacion->getStationInfo());
+        krumo($estacion->bikesAvailable());
+        krumo($estacion->bornetasAvailable());
+	}
+	
+	function consumos(){
+		krumo(Consumos::getGastoGasolina(10));
+		krumo(Consumos::getEmisiones(10));
+	}
+	
 }

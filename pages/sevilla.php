@@ -17,11 +17,28 @@ class SevillaPage
 {
 	function index($param1 = null)
 	{
+		global $mongo_db;
+		$bicity = $mongo_db->estaciones;
 		
-	}
-	
-	function mapa($param1 = null)
-	{
+		$consumos = Consumos::getPreciosGasolina();
+		$estaciones = array();
+		$cursor = $bicity->find();
 		
+		foreach($cursor as $estacion){
+			$estaciones[]=array(
+				'number'=>$estacion['number'],
+				'address'=>$estacion['address'],
+				'available'=>$estacion['available'],
+				'free'=>$estacion['free'],
+				'latitud'=>$estacion['latitud'],
+				'longitud'=>$estacion['longitud']
+			);
+		}
+
+		$output = array(
+			'estaciones'=>$estaciones,
+			'consumos'=>$consumos
+		);
+		return $output;
 	}
 }

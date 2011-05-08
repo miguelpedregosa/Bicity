@@ -1,0 +1,32 @@
+Resumen
+Bycity.info (http://bicity.info) es un sistema para obtener información sobre el servicio de préstamo/alquiler de bicicletas públicas. Se ofrecen servicios como la obtención de las estaciones con bicicletas más cercanas a tu posición, información en tiempo real de las estaciones de las bicicletas, calculo de rutas e información meteorológica para el uso de la bicicleta, información del coste económico en gasto de carburante y el la emisión de gramos de CO2 por kilometro recorrido en caso de que el trayecto se recorra en automovil.
+Bicity
+
+Bicity.info (http://bicity.info) es un proyecto para el desafío #abredatos 2011 La finalidad de este proyecto es hacer un poco más sencilla la vida de los usuarios del sistema de prestamo/alquiler de bicicletas públicas, que poco a poco se va implementando en nuestras ciudades y pueblos.
+
+La aplicación podrá encontrar las estaciones más cercanas a tu posición actual, pudiendo ver en tiempo real el estado de las mismas (si tienen o no tienen bicicletas o anclajes disponibles). Permitirá también calcular rutas entre dos puntos de la ciudad usando la bicicleta como medio de transporte, diferenciando las partes a pie para coger/devolver una bicicleta y la parte de tránsito en este medio.
+
+Por último queremos implementar algunos otros datos relevantes que puedan ser útiles a todas aquellas personas que deciden a diario usar la bicicleta (tanto pública como privada) para sus desplazamientos por las ciudades y pueblos.
+
+Se ha añadido la previsión meteorológica en la ciudad de Sevilla, cogida directamente de los datos proporcionados por la Agencia Española de Meteorología (http://www.aemet.es/es/eltiempo/prediccion/localidades/sevilla-41001).
+
+Con el fin de concienciar al ciudadano de los beneficios del uso la bicicleta, en términos económicos y medioambientales, se ha implementado un sistema que informa del ahorro que supone el desplazamiento en este medio de transporte en lugar de vehículos de combustión. Para dicho fin se calcula el coste aproximado en euros y el litros de combustible para todos los trayectos calculados a partir de nuestra utilidad de rutas.
+
+El coste de los carburantes se coge directamente de la pa?ina web Geoportal del Ministerio de Industria, Turismo y Comercio. Se realiza la media de los precio de los carburantes más habituales en todas las gasolineras de la ciudad de Sevilla. Dicho cálculo se realiza al menos una vez cada día para obtener la información lo más actualizada posible.
+
+De la página web del Instituto para la Diversificación y ahorro de la Energía (Ministerio de Industria, Turismo y Comercio) se han obtenidos los valores de consumo (litros/100km) y de emisiones contaminantes (gC02/Km) de más de 4280 vehículos que se registran en esta base de datos.
+
+Se informa al usuario de la emisión de gramos de CO2 que se habría emitido a la atmósfera por kilómetro recorrido si en lugar de utilizar la bicicleta, el ciudadano se hubiera desplazado en coche. En un futuro el usuario podrá seleccionar su modelo de coche para obtener unos más precisos, así como llevar un control de todo el ahorro acumulado al usar la bicicleta.
+
+Bicity estará enfocado en una primera versión a dispositivos móviles, aunque podrá ser usado desde cualquier navegador web. En versiones posteriores de la herramienta se creará una interfaz más enfocada a navegadores de escritorio.
+
+
+Fuentes:
+
+    SEVici: el servicio de alquiler de bicicletas públicas, www.sevici.es, perteneciente al Ayuntamiento de la ciudad de Sevilla.
+    GEOPORTAL: geoportal.mityc.es, la web informativa del Ministerio de Industria, Turismo y Comercio (Gobierno de España). De aquí se ha obtenido la información sobre los precios de los carburantes de las distintas ciudades de España
+    AEMET: la agencia estatal de meteorología, www.aemet.es, del Ministerio de Medio Ambiente y Medio Rural y Marino (Gobierno de España). De aquí se ha sacado la información meteorológica de la ciudad de Sevilla
+    IDAE: Instituto para la Diversificación y Ahorro de la Energía, www.idae.es, adscrito al Ministerio de Industria, Turismo y Comercio (Gobierno de España), y cuya base de datos contiene información sobre indicaciones de consumos y emisiones de CO2.
+
+
+

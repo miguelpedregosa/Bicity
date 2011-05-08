@@ -47,48 +47,33 @@ class City
 	public function getMeteo(){
 		global $mongo_db;
 		$bicity = $mongo_db->meteo;
+		$meteo = null;
 		
 		$cursor = $bicity->findOne(array('date' => date('dmY')));
-		$meteo=array(
-			'cielo'=>$cursor['cielo'],
-			'sky_code'=>$cursor['sky_code'],
-			'precipitaciones'=>$cursor['precipitaciones'],
-			'temperatura_maxima'=>$cursor['temperatura_maxima'],
-			'temperatura_minima'=>$cursor['temperatura_minima'],
-			'viento'=>$cursor['viento']
-		);
-		return $meteo;
-	}
-	
-	public function getPetrolPrice(){
-		global $mongo_db;
-		$bicity = $mongo_db->gasolineras;
-		
-		$cursor = $bicity->findOne(array('fecha' => date('d/m/Y')));
-		$gasolineras=array(
-		'sp95'=>$cursor['sp95'],
-		'sp98'=>$cursor['sp98'],
-		'diesel'=>$cursor['diesel']
-		);
-		
-		return $gasolineras;
-	}
-	
-	public function getPetrolConsumption($kilometros){
-		global $configuracion;
-		$precio = $this->getPetrolPrice();
-		$consumption = null;
-		if(isset($configuracion['consumo_medio']) AND $kilometros>0){
-			$consumo = floatval(($kilometros*$configuracion['consumo_medio'])/100);
-			$consumption=array(
-			'kilometros'=>$kilometros,
-			'consumo'=>$consumo,
-			'sp95' => floatval($consumo * $precio['sp95']),
-			'sp98' => floatval($consumo * $precio['sp98']),
-			'diesel' => floatval($consumo * $precio['diesel'])
+		if($cursor != null){
+			$meteo=array(
+				'cielo'=>$cursor['cielo'],
+				'sky_code'=>$cursor['sky_code'],
+				'precipitaciones'=>$cursor['precipitaciones'],
+				'temperatura_maxima'=>$cursor['temperatura_maxima'],
+				'temperatura_minima'=>$cursor['temperatura_minima'],
+				'viento'=>$cursor['viento']
 			);
 		}
-		
-		return $consumption;
+		else{
+			$ayer=date('dmY', mktime(0,-1,0,date('m'),date('d'),date('Y')));
+			$cursor = $bicity->findOne(array('date' => $ayer));
+			if($cursor != null){
+				$meteo=array(
+					'cielo'=>$cursor['cielo'],
+					'sky_code'=>$cursor['sky_code'],
+					'precipitaciones'=>$cursor['precipitaciones'],
+					'temperatura_maxima'=>$cursor['temperatura_maxima'],
+					'temperatura_minima'=>$cursor['temperatura_minima'],
+					'viento'=>$cursor['viento']
+				);
+			}
+		}
+		return $meteo;
 	}
 }

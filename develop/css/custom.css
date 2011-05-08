@@ -40,6 +40,14 @@ margin-bottom:5px;
 	-webkit-box-shadow: 0px 1px 4px 		rgba(0,0,0,.3);
 	box-shadow: 0px 1px 4px 				rgba(0,0,0,.3);
 }
+#desde-hasta2 {
+background:url(../images/red-box-1.jpg) repeat;
+color:#fff;
+margin-bottom:5px;
+-moz-box-shadow: 0px 1px 4px 			rgba(0,0,0,.3);
+	-webkit-box-shadow: 0px 1px 4px 		rgba(0,0,0,.3);
+	box-shadow: 0px 1px 4px 				rgba(0,0,0,.3);
+}
 
 #desde-hasta .ui-body-b {
 	border: 1px solid 		#b7b2af;
@@ -58,8 +66,8 @@ margin-bottom:5px;
 #desde-hasta .ddesde {
 width:60%;
 }
-#desde-hasta .ui-btn-inner {
-
+#desde-hasta span.ui-btn-inner {
+background:url(../images/button-1.png) repeat;
 }
 #desde-hasta .ui-btn-up-b,#cuerpo .colapsa .ui-btn-up-b {
 	border: none;
@@ -82,6 +90,7 @@ width:60%;
 }
 #desde-hasta .small {
 	font-size:60%;
+	font-weight:bold;
 }
 #desde-hasta .big {
 	font-size:120%;
@@ -100,6 +109,7 @@ width:60%;
 }
 #desde-hasta #geoo {
 	float:right;
+	cursor:pointer;
 	}
 #footer .ui-btn-active {
 	border: 1px solid 		#666;
@@ -126,15 +136,22 @@ background:url(../images/correo-icon.png) no-repeat;
 .ui-btn-up-b {
 background:url(../images/mas-icon.png) no-repeat;
 }
-.ui-icon-minus {
-background:url(../images/menos-icon.png) no-repeat;
-}
 
 #cuerpo .jqm-themeswitcher {
 display:none;
 }
 #desde-hasta .no-sombra {
 text-shadow:0 0px 0 #FFFFFF;
+}
+#desde-hasta .ui-body-b {
+text-shadow:0 0px 0 #FFFFFF;
+}
+#desde-hasta .italic {
+font-weight:bold;
+}
+#desde-hasta .italic strong {
+font-style:italic;
+font-weight:normal;
 }
 .mapp {
 border:5px solid #959b1f;
@@ -151,4 +168,101 @@ border:none;
 }
 .vacio{
 height:30px;
+}
+.a-logo .ui-btn-inner {
+border:none;
+}
+#headd .ui-btn-up-a {
+	border: none;
+	background:none;
+	font-weight: bold;
+	color:#fff;
+	text-shadow: 0 0px 0px #000;
+}
+#headd .ui-btn-up-a,#desde-hasta .ui-btn-up-c,#desde-hasta .ui-btn-hover-c {
+	border: none;
+	background:none;
+	font-weight: bold;
+	color:#fff;
+	text-shadow: 0 0px 0px #000;
+}
+#headd .ui-btn-hover-a {
+	border: none;
+	background:none;
+	font-weight: bold;
+	color:#fff;
+	text-shadow: 0 0px 0px #000;
+}
+#headd span.ui-btn-inner {
+	border: none;
+}
+#headd .ui-shadow {
+	-moz-box-shadow: 0px 0px 0px 			rgba(0,0,0,0);
+	-webkit-box-shadow: 0px 0px 0px 		rgba(0,0,0,0);
+	box-shadow: 0px 0px 0px 				rgba(0,0,0,0);
+}
+.float-r {
+float:right;
+}
+.el-tiempo span{
+color:#d9d9d9;
+font-size:99%;
+font-weight:500;
+margin-top:10px;
+}
+.el-tiempo span strong{
+color:#fff;
+font-weight:700;
+}
+.el-tiempo img{
+float:right;
+margin:-5px 0 0 5px;
+}
+hr {
+height:1px;
+background-color:#cccac8;
+color:#faf8f5;
+}
+#desde-hasta a,#desde-hasta2 a {
+color:#fff;
+text-shadow:0 0px 0px #000000;
+}
+.cargando {
+width:140px;
+margin:0 auto 30px auto;
+display:block;
+}
+.columnas-desiguales .ui-block-a {
+width:37.333%;
+font-weight:bold;
+}
+.columnas-desiguales .ui-block-b, .columnas-desiguales .ui-block-c {
+width:31.333%;
+}
+.ui-mobile-viewport .ui-body-b {
+	text-shadow: none;
+}
+#error {
+width:348px;
+margin:40px auto;
+}
+.mapa-estaciones {
+width:98%;
+height:200px;
+border:5px solid #959b1f;
+}
+#cuerpo .gris a {
+color:#959b1f;
+}
+#cuerpo .small {
+font-size:80%;
+}
+#cuerpo .gris .italic{
+font-style:italic;
+}
+#position-map {
+width:80%;
+margin:auto;
+border:5px solid #959b1f;
+margin-bottom:30px;
 }

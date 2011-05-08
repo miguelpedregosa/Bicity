@@ -21,20 +21,10 @@
  
  //Selecciono la colección sobre la que voy a trabajar
  $bicity = $mongo_db->estaciones;
-//----------------------------Banco de pruebas --------------------------------  
 
-//$posicion = new Position("c/real de armilla, 6");
-$ciudad = new City("Sevilla");
-print_r($ciudad->getMeteo());
-print_r($ciudad->getPetrolPrice());
-print_r($ciudad->getPetrolConsumption(5));
-
-print_r("\n\nfinal del banco de pruebas");
-die;
-//----------------------------Banco de pruebas -------------------------------- 
  echo "Leyendo la información de las estaciones de bicicletas de sevilla";
  
- /*if(function_exists('curl_init')){
+ if(function_exists('curl_init')){
 	 //Puedo utilizar CURL para leer la información de las estaciones
 	 $ch = curl_init("http://www.sevici.es/service/carto");
 	 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -82,4 +72,4 @@ die;
  else{
 	 echo "No voy a poder leer la información de las estaciones";
  }
-*/
+

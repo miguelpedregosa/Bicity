@@ -56,9 +56,9 @@ class Consumos{
 			if($cursor != null){
 				$media = $cursor['media'];//litros a los 100Km
 				$consumption=array(
-					'sp95'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['sp95'])),
-					'sp98'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['sp98'])),
-					'diesel'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['diesel']))
+					'sp95'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['sp95']),2)),
+					'sp98'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['sp98']),2)),
+					'diesel'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['diesel']),2))
 				);
 			}
 			else{
@@ -66,9 +66,9 @@ class Consumos{
 				$cursor = $bicity->findOne(array('fecha' => $ayer));
 				if($cursor != null){
 					$consumption=array(
-					'sp95'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['sp95'])),
-					'sp98'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['sp98'])),
-					'diesel'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>floatval((($kilometros*$media)/100)*$precio['diesel']))
+					'sp95'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['sp95']),2)),
+					'sp98'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['sp98']),2)),
+					'diesel'=>array('litros'=>floatval(($kilometros*$media)/100),'euros'=>round(floatval((($kilometros*$media)/100)*$precio['diesel']),2))
 					);
 				}
 			}

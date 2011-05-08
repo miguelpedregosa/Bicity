@@ -9,7 +9,7 @@ Todo sobre Bicity
 <script type="text/javascript">
 
 var map;
-var marker;
+
 function pintar_paradas()
 {
 	var IconoEstacion = new google.maps.MarkerImage('{{page.url_theme_images}}position-map.png', new google.maps.Size(24, 32), new google.maps.Point(0,0), new google.maps.Point(8, 37) );
@@ -32,7 +32,7 @@ function pintar_paradas()
     var infowindow = new google.maps.InfoWindow();
     
     {% for estacion in data.estaciones %}
-    marker = new google.maps.Marker({
+    var marker = new google.maps.Marker({
       position: new google.maps.LatLng({{estacion.latitud}}, {{estacion.longitud}}), 
       icon: IconoEstacion,
       map: map

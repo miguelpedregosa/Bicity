@@ -54,6 +54,11 @@ class GpsPage
 			'latitud'=>$latitud,
 			'longitud'=>$longitud
 		);
+		
+		$info_ruta = array(
+			'desde'=>$POST['desde'],
+			'hasta'=>$POST['hasta']
+		);
 		//krumo($punto_salida);
 		$punto_llegada = array(
 			'latitud'=>$latitud_hasta,
@@ -75,8 +80,10 @@ class GpsPage
 		$output = array(
 		'salida'=>$salida->to_Array(),
 		'llegada'=>$llegada->to_Array(),
+		'info_ruta'=>$info_ruta,
 		'punto_salida'=>$punto_salida,
 		'punto_llegada'=>$punto_llegada,
+		'kilometros'=>$kilometros,
 		'consumos'=>$consumos,
 		'precios'=>$precios
 		);

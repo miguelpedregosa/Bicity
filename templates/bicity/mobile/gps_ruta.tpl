@@ -22,28 +22,28 @@ Rutas en bicicleta por la ciudad y ahorro de combustible
 	<div id="cuerpo" data-role="content">
 	<h1>Salida - Destino</h1>
 	<div id="desde-hasta" class="ui-body ui-corner-all">
-	<p class="no-sombra italic">Desde: <strong>CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado</strong></p>
-	<p class="no-sombra italic">Hasta: <strong>CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado</strong></p>
+	<p class="no-sombra italic">Desde: <strong>{{data.info_ruta.desde}}</strong></p>
+	<p class="no-sombra italic">Hasta: <strong>{{data.info_ruta.hasta}}</strong></p>
 	<hr/>
-	<p class="no-sombra italic">Estación de Salida: 345 <strong>CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado</strong></p>
+	<p class="no-sombra italic">Estación de Salida: {{data.salida.number}} <strong>{{data.salida.fullAddress}}</strong></p>
 <div class="ui-grid-b">
-	<div class="ui-block-a"><img src="images/bici.png" class="float-l-icon" /><span class="txt-b">7<span></div>
-	<div class="ui-block-b"><img src="images/ancla.png" class="float-l-icon" /><span class="txt-b">4<span></div>
-	<div class="ui-block-c"><img src="images/tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
+	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">{{data.salida.number}}<span></div>
+	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">{{data.salida.number}}<span></div>
+	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
 </div><!-- /grid-a -->
 <hr/>
-	<p class="no-sombra italic">Estación de llegada: 43 <strong>CALLE CHURRUCA - Aprox. C/ Gonzáles Cuadrado</strong></p>
+	<p class="no-sombra italic">Estación de llegada: {{data.llegada.number}} <strong>{{data.llegada.fullAddress}}</strong></p>
 <div class="ui-grid-b">
-	<div class="ui-block-a"><img src="images/bici.png" class="float-l-icon" /><span class="txt-b">7<span></div>
-	<div class="ui-block-b"><img src="images/ancla.png" class="float-l-icon" /><span class="txt-b">4<span></div>
-	<div class="ui-block-c"><img src="images/tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
+	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">7<span></div>
+	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">4<span></div>
+	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
 </div><!-- /grid-a -->
 	</div>
 	<div class="colapsa" data-role="collapsible" data-collapsed="false">
 	<h2 class="de-boton">Calculo de Ahorro</h2>
 	<h2>Resumen</h2>
-	<p class="gris"><strong>Distancia Recorrida: </strong>12 Km</p>
-	<p class="gris"><strong>Emisiones ahorradas: </strong>34 gr CO2</p>
+	<p class="gris"><strong>Distancia Recorrida: </strong>{{data.kilometros}} Km</p>
+	<p class="gris"><strong>Emisiones ahorradas: </strong>{{data.consumos.emisiones}} gr CO2</p>
 	<table>
 	<tr style="font-weight:bold;"><td>Combustible </td><td>Dinero Gastado </td></tr>
 	<tr><td>Sin Plomo 95: </td><td>{{data.consumos.sp95}}</td><td><img src="{{page.url_theme_images}}euro.png"></td></tr>
@@ -63,11 +63,7 @@ Rutas en bicicleta por la ciudad y ahorro de combustible
 	</table>
 	<p class="gris"><a href="{{page.url_root}}/faq/">¿Cómo se calculan estos precios?</a></p>
 	</div>
-	<h2>Mapa</h2>
-	<img src="images/map.png" class="mapp" class="float-l-icon" />
-	<div class="colapsa" data-role="collapsible" data-collapsed="true">
-	<h2 class="de-boton">Cómo llegar a la Estación</h2>
-	</div>
+	
 	</div>
 	<!--Cuerpo de la Web END-->
 {% endblock %}

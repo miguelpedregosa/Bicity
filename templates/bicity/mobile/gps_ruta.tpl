@@ -27,16 +27,16 @@ Rutas en bicicleta por la ciudad y ahorro de combustible
 	<hr/>
 	<p class="no-sombra italic">Estación de Salida: {{data.salida.number}} <strong>{{data.salida.fullAddress}}</strong></p>
 <div class="ui-grid-b">
-	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">{{data.salida.number}}<span></div>
-	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">{{data.salida.number}}<span></div>
-	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
+	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">{{data.salida_real.available}}<span></div>
+	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">{{data.salida_real.free}}<span></div>
+	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">SI<span></div>
 </div><!-- /grid-a -->
 <hr/>
 	<p class="no-sombra italic">Estación de llegada: {{data.llegada.number}} <strong>{{data.llegada.fullAddress}}</strong></p>
 <div class="ui-grid-b">
-	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">7<span></div>
-	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">4<span></div>
-	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">Si<span></div>
+	<div class="ui-block-a"><img src="{{page.url_theme_images}}bici.png" class="float-l-icon" /><span class="txt-b">{{data.llegada_real.available}}<span></div>
+	<div class="ui-block-b"><img src="{{page.url_theme_images}}ancla.png" class="float-l-icon" /><span class="txt-b">{{data.llegada_real.free}}<span></div>
+	<div class="ui-block-c"><img src="{{page.url_theme_images}}tarjeta.png" class="float-l-icon" /><span class="txt-b">SI<span></div>
 </div><!-- /grid-a -->
 	</div>
 	<div class="colapsa" data-role="collapsible" data-collapsed="false">

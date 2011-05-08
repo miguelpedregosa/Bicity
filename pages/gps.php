@@ -79,7 +79,9 @@ class GpsPage
 		
 		$output = array(
 		'salida'=>$salida->to_Array(),
+		'salida_real'=>$salida->getStationInfo(),
 		'llegada'=>$llegada->to_Array(),
+		'llegada_real'=>$llegada->getStationInfo(),
 		'info_ruta'=>$info_ruta,
 		'punto_salida'=>$punto_salida,
 		'punto_llegada'=>$punto_llegada,
